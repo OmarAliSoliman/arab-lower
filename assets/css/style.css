@@ -623,7 +623,7 @@ img {
 }
 
 .about-arab-lower .image-header {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header.png");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/header.png");
   background-size: cover;
   background-position: center;
   height: 390px;
@@ -641,6 +641,7 @@ img {
   width: 50px !important;
   height: 5px !important;
   right: 50%;
+  transform: translate(0, -50%);
 }
 .about-arab-lower .who-us {
   margin-top: 70px;
@@ -760,6 +761,65 @@ img {
 .services-cards .card .card-link {
   color: #d52818;
 }
+.services-cards .card .card-link::after {
+  content: "";
+  margin-right: 5px;
+}
+
+.single-serv-sidebar {
+  margin-top: 75px;
+}
+.single-serv-sidebar h6 {
+  font-size: 24px;
+}
+.single-serv-sidebar ul {
+  margin-top: 20px;
+}
+.single-serv-sidebar ul li {
+  border-bottom: 2px solid #d1d0d0;
+  padding-bottom: 10px;
+  transition: all 1s;
+  margin-top: 20px;
+}
+.single-serv-sidebar ul li a {
+  display: block;
+  padding-right: 10px;
+  color: #000;
+  font-size: 18px;
+  border-right: 3px solid #C5C5C5;
+  text-decoration: none;
+  transition: all 1s;
+}
+.single-serv-sidebar ul li:hover a {
+  border-right: 3px solid #ccad53;
+  color: #ccad53;
+  transition: all 1s;
+}
+.single-serv-sidebar ul li:hover a::before {
+  content: "";
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.sing-serv-content {
+  margin-bottom: 60px;
+  margin-top: 75px;
+}
+.sing-serv-content .single-serv-content-img {
+  background-size: cover;
+  background-position: center;
+  height: 273px;
+}
+.sing-serv-content .single-serv-name {
+  font-size: 32px;
+  margin: 45px 0 30px 0;
+  color: #d52818;
+}
+.sing-serv-content .single-serv-decreption {
+  font-size: 16px;
+  color: #626262;
+}
+
 footer {
   background-color: #1A355A;
 }
@@ -840,6 +900,12 @@ footer .links ul li:last-child::before {
   .middle-header .account-card .col-md-3, .middle-header .account-card .col-md-9 {
     margin: 0;
     padding: 0;
+  }
+  .middle-header .social {
+    margin-top: 60px;
+  }
+  .middle-header .logo p {
+    font-size: 14px;
   }
 
   .navbar {
@@ -955,7 +1021,7 @@ footer .links ul li:last-child::before {
   bottom: 0;
 }
 
-.consults .consult-slider .slick-arrow::before, .services-cards .card .card-link::after {
+.consults .consult-slider .slick-arrow::before, .services-cards .card .card-link::after, .single-serv-sidebar ul li:hover a::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
