@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
 
 $mainColor: #1a355a;
 $secondColor: #d52818;
@@ -23,7 +23,7 @@ option {
 
 body {
   direction: rtl;
-  font-family: 'Almarai', sans-serif;
+  font-family: "Almarai", sans-serif;
   // height: 3000px;
 }
 
@@ -36,7 +36,7 @@ img {
   width: 100%;
 }
 
-.slider-item{
+.slider-item {
   outline: 0 !important;
 }
 
@@ -176,40 +176,39 @@ img {
   }
 }
 
-
 // start navbar
-.navbar{
+.navbar {
   background-color: $mainColor;
   margin-top: 15px;
   padding: 0;
-  .navbar-nav{
+  .navbar-nav {
     margin: auto;
-    .nav-item{
+    .nav-item {
       margin-left: 15px;
       margin-right: 15px;
       // padding: 4px;
-      .nav-link{
+      .nav-link {
         color: #fff;
         padding: 13px;
       }
     }
-    .active{
+    .active {
       border-top: 2px solid $thirdColor;
     }
-    .dropdown{
-      .dropdown-menu{
+    .dropdown {
+      .dropdown-menu {
         margin-top: -2px;
         padding: 0;
         width: 200px;
-        .dropdown-item{
+        .dropdown-item {
           padding: 10px;
-          &:hover{
+          &:hover {
             background-color: $thirdColor;
             color: #fff;
           }
         }
       }
-      .dropdown-item-active{
+      .dropdown-item-active {
         background-color: $thirdColor;
         color: #fff;
       }
@@ -217,29 +216,29 @@ img {
   }
 }
 
-.header{
-  .header-slider{
-    .slider-item{
+.header {
+  .header-slider {
+    .slider-item {
       background-position: center;
       background-size: cover;
       height: 500px;
-      .slider-item-content{
+      .slider-item-content {
         color: #fff;
         margin-top: 150px;
         max-width: 45%;
         float: right;
         margin-right: 70px;
-        h5{
+        h5 {
           font-size: 22px;
           position: relative;
-          &::before{
-            content: url('../images/Line\ 29.png');
+          &::before {
+            content: url("../images/Line\ 29.png");
             position: absolute;
             right: -85px;
             top: -3px;
           }
         }
-        p{
+        p {
           font-size: 35px;
         }
       }
@@ -272,44 +271,49 @@ img {
   }
 }
 
-.all-in-color{
-  background-color: #FBFBFB;
+.all-in-color {
+  background-color: #fbfbfb;
   padding-bottom: 40px;
 }
 
 // start small-about
-.small-about{
+.small-about {
   width: 80%;
   margin: auto;
   margin-top: -80px;
   z-index: 4;
   position: relative;
   // color: rgb(241, 241, 241);
-  background-image: linear-gradient(to right, rgba(241, 241, 241, .9), rgba(241, 241, 241, .9)), url('../images/small-about-bg.png');
+  background-image: linear-gradient(
+      to right,
+      rgba(241, 241, 241, 0.9),
+      rgba(241, 241, 241, 0.9)
+    ),
+    url("../images/small-about-bg.png");
   background-position: top;
   background-size: cover;
   // padding: 20px;
-  .row{
-    .col-lg-6{
+  .row {
+    .col-lg-6 {
       padding: 0;
     }
   }
-  .small-about-content{
+  .small-about-content {
     padding: 20px;
-    h5{
+    h5 {
       color: $secondColor;
       font-size: 42px;
       margin-top: 90px;
       position: relative;
       padding-bottom: 25px;
-      &::after{
+      &::after {
         @extend %line-after;
         background-color: $secondColor !important;
         margin-bottom: 10px;
         right: 0;
       }
     }
-    .btn{
+    .btn {
       background-color: #fff;
       color: $thirdColor;
       font-size: 15px;
@@ -319,10 +323,10 @@ img {
 }
 
 // start services
-.services{
-  .section-header{
+.services {
+  .section-header {
     @extend %section-header;
-    &::after{
+    &::after {
       @extend %line-after;
       right: 45%;
       transform: translate(0, -45%);
@@ -330,34 +334,34 @@ img {
       background-color: $secondColor !important;
     }
   }
-  .row{
+  .row {
     margin: 0;
   }
-  .col-lg-5{
+  .col-lg-5 {
     padding-left: 0;
     margin: 0;
   }
 
-  .servise-content{
-    .card{
+  .servise-content {
+    .card {
       border: 0;
       border-radius: 0;
       background-color: transparent;
       margin-top: 15px;
-      .card-img{
+      .card-img {
         text-align: center;
-        img{
+        img {
           width: 150px;
           height: 95px;
           margin: auto;
         }
       }
-      .card-body{
+      .card-body {
         text-align: center;
-        h5{
+        h5 {
           font-size: 17px;
         }
-        a{
+        a {
           color: $secondColor;
           font-size: 14px;
         }
@@ -365,17 +369,17 @@ img {
     }
   }
 
-  .services-img{
+  .services-img {
     // border: 1px solid #000;
-    background-image: url('../images/services.png');
+    background-image: url("../images/services.png");
     background-size: 130%;
     background-position: right;
     height: 450px;
-    img{
+    img {
       background-color: transparent;
     }
   }
-  .btn-more-service{
+  .btn-more-service {
     border: 1px solid $mainColor;
     background-color: #fff;
     margin-top: 20px;
@@ -383,18 +387,20 @@ img {
   }
 }
 
-.posts{
-  .row{
+.posts {
+  .row {
     margin: 0;
-    .col, .col-md-4, .col-lg{
+    .col,
+    .col-md-4,
+    .col-lg {
       padding: 0;
     }
   }
 
-  .section-header{
+  .section-header {
     @extend %section-header;
     margin-bottom: 60px !important;
-    &::after{
+    &::after {
       @extend %line-after;
       right: 45%;
       transform: translate(0, -45%);
@@ -402,26 +408,26 @@ img {
       background-color: $secondColor !important;
     }
   }
-  
-  .card{
+
+  .card {
     background-size: cover;
     background-position: center;
     height: 380px;
     border-radius: 0;
     border: 0;
     position: relative;
-    .post-content{
+    .post-content {
       position: absolute;
       bottom: 20px;
       left: 30%;
       color: #fff;
       padding-top: 30px;
-      transition: all .5s;
-      a{
+      transition: all 0.5s;
+      a {
         color: #fff;
         text-decoration: none;
       }
-      &::before{
+      &::before {
         @extend %line-after;
         bottom: 100% !important;
         width: 50px !important;
@@ -430,28 +436,28 @@ img {
         background-color: #fff !important;
       }
     }
-    .overlay{
+    .overlay {
       position: absolute;
       width: 70%;
       height: 70%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-color: rgba(179, 22, 51, .9);
+      background-color: rgba(179, 22, 51, 0.9);
       z-index: 2;
       opacity: 0;
-      transition: all .5s;
-      .overlay-content{
+      transition: all 0.5s;
+      .overlay-content {
         position: absolute;
         top: 36%;
         left: 23%;
         color: #fff;
         padding-top: 30px;
-        a{
+        a {
           color: #fff;
-          text-decoration: none;  
+          text-decoration: none;
         }
-        &::before{
+        &::before {
           @extend %line-after;
           bottom: 100% !important;
           width: 50px !important;
@@ -461,29 +467,29 @@ img {
         }
       }
     }
-    &:hover{
-      .post-content{
+    &:hover {
+      .post-content {
         opacity: 0;
       }
-      .overlay{
+      .overlay {
         opacity: 1;
       }
     }
   }
 
-  .btn-more-service{
+  .btn-more-service {
     border: 1px solid $mainColor;
     background-color: #fff;
     margin-top: 40px;
     margin-bottom: 120px;
   }
-} 
+}
 
-.consults{
-  .section-header{
+.consults {
+  .section-header {
     @extend %section-header;
     margin-bottom: 60px !important;
-    &::after{
+    &::after {
       @extend %line-after;
       right: 45%;
       transform: translate(0, -45%);
@@ -491,51 +497,51 @@ img {
       background-color: $secondColor !important;
     }
   }
-  .consult-slider{
-    .slider-item{
+  .consult-slider {
+    .slider-item {
       padding: 10px;
       margin-bottom: 30px;
-      .card{
+      .card {
         border-radius: 0;
         border: 0;
-        .card-img{
+        .card-img {
           background-size: cover;
           background-position: center;
           height: 266px;
           border-radius: 0;
         }
-        .card-body{
-          background-color: #F2F2F2;
-          .card-title{
+        .card-body {
+          background-color: #f2f2f2;
+          .card-title {
             text-align: center;
             position: relative;
             padding-bottom: 25px;
-            &::after{
+            &::after {
               @extend %line-after;
               right: 40% !important;
-              transform: translate(0 , -40%) !important;
+              transform: translate(0, -40%) !important;
               background-color: $thirdColor !important;
               width: 55px !important;
               height: 5px !important;
             }
           }
-          .card-text{
-            a{
+          .card-text {
+            a {
               color: $mainColor;
               text-decoration: none;
             }
-            i{
+            i {
               color: $thirdColor;
               margin-right: 4px;
             }
-            span{
+            span {
               color: $mainColor;
             }
           }
         }
       }
     }
-    .slick-arrow{
+    .slick-arrow {
       top: 100%;
       &::before {
         @extend %initlizeFonAwesomeAfter;
@@ -562,28 +568,29 @@ img {
 }
 
 // start numbers
-.numbers{
-  background-color: #B31633;
+.numbers {
+  background-color: #b31633;
   margin-top: 122px;
   padding: 57px 81px;
-  .card{
+  .card {
     background-color: transparent;
     text-align: center;
     border: 0;
-    img{
+    img {
       width: 38px;
       height: 38px;
       margin: auto;
     }
-    .card-title, .card-text{
+    .card-title,
+    .card-text {
       color: #fff;
       margin: 0;
     }
-    .card-title{
+    .card-title {
       font-size: 48px;
       margin-top: 9px;
       position: relative;
-      &::after{
+      &::after {
         content: "";
         height: 30px;
         border-right: 1px solid #fff;
@@ -592,13 +599,13 @@ img {
         top: 13px;
       }
     }
-    .card-text{
+    .card-text {
       font-size: 18px;
     }
   }
-  .last-card-number{
-    .card-title{
-      &::after{
+  .last-card-number {
+    .card-title {
+      &::after {
         content: "";
         border-right: 0;
       }
@@ -606,20 +613,19 @@ img {
   }
 }
 
-
 // start books-search
-.books-search{
-  background-image: url('../images/search.png');
+.books-search {
+  background-image: url("../images/search.png");
   height: 730px;
   background-size: cover;
   background-position: left;
-  .section-header{
+  .section-header {
     @extend %section-header;
     margin-top: 0 !important;
     border-bottom: 2px solid #fff !important;
     margin-bottom: 60px !important;
     padding-top: 50px;
-    &::after{
+    &::after {
       @extend %line-after;
       right: 45%;
       transform: translate(0, -45%);
@@ -627,33 +633,33 @@ img {
       background-color: $secondColor !important;
     }
   }
-  .books-slider{
-    .slider-item{
+  .books-slider {
+    .slider-item {
       padding: 10px;
-      .card{
+      .card {
         padding: 10px;
         text-align: center;
         border-radius: 0;
         border: 0;
-        .card-img{
+        .card-img {
           background-size: cover;
           background-position: center;
           height: 255px;
           border-radius: 0;
           position: relative;
           z-index: 2;
-          .overlay{
+          .overlay {
             position: absolute;
             width: 70%;
             height: 70%;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: rgba(179, 22, 51, .8);
+            background-color: rgba(179, 22, 51, 0.8);
             z-index: 2;
             opacity: 0;
-            transition: all .5s;
-            a{
+            transition: all 0.5s;
+            a {
               color: #fff;
               position: absolute;
               top: 50%;
@@ -662,7 +668,7 @@ img {
               transform: translate(-50%, -50%);
             }
           }
-          &::before{
+          &::before {
             content: "";
             width: 100%;
             height: 100%;
@@ -672,18 +678,18 @@ img {
             background-color: rgba(218, 218, 218, 0.2);
             z-index: -1;
           }
-          &:hover{
-            .overlay{
+          &:hover {
+            .overlay {
               opacity: 1;
             }
           }
         }
-        .card-title{
+        .card-title {
           margin: 0;
           font-size: 18px;
           margin-bottom: 4px;
         }
-        a{
+        a {
           color: $thirdColor;
           font-size: 15px;
           text-decoration: none;
@@ -721,20 +727,25 @@ img {
 }
 // ================================================================================================================================================
 
-.about-arab-lower{
-  .image-header{
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/header.png');
+.about-arab-lower {
+  .image-header {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../images/header.png");
     background-size: cover;
     background-position: center;
     height: 390px;
     padding-top: 150px;
-    h5{
+    h5 {
       color: #fff;
       text-align: center;
       position: relative;
       font-size: 38px;
       padding-bottom: 30px;
-      &::after{
+      &::after {
         @extend %line-after;
         background-color: $thirdColor !important;
         width: 50px !important;
@@ -744,18 +755,18 @@ img {
       }
     }
   }
-  .who-us{
+  .who-us {
     margin-top: 70px;
-    img{
+    img {
       height: 475px;
     }
-    .who-content{
+    .who-content {
       margin-top: 40px;
-      h6{
+      h6 {
         color: $thirdColor;
         position: relative;
         padding-top: 40px;
-        &::after{
+        &::after {
           @extend %line-after;
           background-color: $thirdColor !important;
           width: 50px !important;
@@ -764,7 +775,7 @@ img {
           top: 0%;
         }
       }
-      p{
+      p {
         font-size: 16px;
         color: #888;
         margin-top: 15px;
@@ -773,46 +784,50 @@ img {
     }
   }
 
-
-  .goals{
-    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/goa;.png');
+  .goals {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("../images/goa;.png");
     background-size: cover;
     background-position: center;
     height: 390px;
     margin-top: 60px;
     padding-top: 60px;
-    .container{
+    .container {
       border: 1px solid #fff;
       border-radius: 10px;
     }
-    .card{
+    .card {
       background-color: transparent;
       border: 0;
       border-radius: 0;
       text-align: center;
       color: #fff;
       margin-top: 30px;
-      img{
+      img {
         width: 60px;
         height: 60px;
         margin: auto;
       }
-      p{
+      p {
         line-height: 35px;
       }
     }
   }
 
-  .why{
+  .why {
     margin-top: 80px;
     margin-bottom: 30px;
-    .why-header{
+    .why-header {
       text-align: center;
-      h6{
+      h6 {
         color: #888;
         position: relative;
         padding-top: 40px;
-        &::after{
+        &::after {
           @extend %line-after;
           background-color: $thirdColor !important;
           width: 60px !important;
@@ -821,25 +836,22 @@ img {
           top: 0%;
         }
       }
-      h5{
+      h5 {
         margin-bottom: 40px;
       }
     }
   }
-
-
 }
 
 // ================================================================================================================================================
 
-
-.services-cards{
+.services-cards {
   margin-bottom: 40px;
-  .image-header{
+  .image-header {
     margin-bottom: 30px;
   }
-  .card{
-    background-color: #F9F9F9;
+  .card {
+    background-color: #f9f9f9;
     text-align: center;
     border: 0;
     border-radius: 0;
@@ -847,145 +859,577 @@ img {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 20px;
-    img{
+    img {
       width: 81px;
       height: 81px;
       margin: auto;
     }
-    .card-title{
+    .card-title {
       margin-top: 15px;
       position: relative;
-      &::after{
-        content: url('../images/serv-line.png');
+      &::after {
+        content: url("../images/serv-line.png");
         position: absolute;
         top: 100%;
         margin-top: 10px;
         right: 45px;
       }
     }
-    .card-text{
+    .card-text {
       margin-top: 25px;
       line-height: 30px;
       color: #999;
     }
-    .card-link{
+    .card-link {
       color: $secondColor;
-      &::after{
+      &::after {
         @extend %initlizeFonAwesomeAfter;
         content: "\f30a";
         margin-right: 5px;
       }
-
     }
   }
 }
 
 // ================================================================================================================================================
 
-.single-serv-sidebar{
+.single-serv-sidebar {
   margin-top: 75px;
-  h6{
+  h6 {
     font-size: 24px;
   }
-  ul{
+  ul {
     margin-top: 20px;
-    li{
+    li {
       border-bottom: 2px solid #d1d0d0;
       padding-bottom: 10px;
       transition: all 1s;
       margin-top: 20px;
-      a{
+      a {
         display: block;
         padding-right: 10px;
         color: #000;
         font-size: 18px;
-        border-right: 3px solid #C5C5C5;
+        border-right: 3px solid #c5c5c5;
         text-decoration: none;
         transition: all 1s;
       }
-      &:hover{
-        a{
+      &:hover {
+        a {
           border-right: 3px solid $thirdColor;
           color: $thirdColor;
           transition: all 1s;
-          &::before{
+          &::before {
             @extend %initlizeFonAwesomeAfter;
             content: "\f30a";
             font-size: 13px;
             // position: absolute;
             margin-left: 5px;
-            
           }
         }
       }
     }
   }
 }
-.sing-serv-content{
+.sing-serv-content {
   margin-bottom: 60px;
   margin-top: 75px;
-  .single-serv-content-img{
+  .single-serv-content-img {
     background-size: cover;
     background-position: center;
     height: 273px;
   }
-  .single-serv-name{
+  .single-serv-name {
     font-size: 32px;
     margin: 45px 0 30px 0;
     color: $secondColor;
   }
 
-  .single-serv-decreption{
+  .single-serv-decreption {
     font-size: 16px;
     color: #626262;
   }
 }
+// ================================================================================================================================================
+.statics {
+  h5 {
+    &::after {
+      right: 48% !important;
+      transform: translate(0, -48%);
+    }
+  }
+  .form-group {
+    width: 30%;
+    margin: auto;
+    margin-top: 60px;
+    .form-control {
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+  .statics-card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .card {
+    background-color: #f8f8f8;
+    text-align: center;
+    border: 0;
+    border-radius: 11px;
+    margin-bottom: 20px;
+    padding-top: 32px;
+    padding-bottom: 23px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 35px;
+    .card-img {
+      img {
+        width: 37px;
+        height: 37px;
+        margin: auto;
+      }
+    }
+    .card-title {
+      font-size: 54px;
+      color: $thirdColor;
+    }
+    .card-text {
+      font-size: 20px;
+      color: $mainColor;
+    }
+  }
+}
+// ================================================================================================================================================
+.condition {
+  .condition-card {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    .card {
+      border-radius: 0;
+      border: 0;
+      margin-bottom: 52px;
+      .card-title {
+        font-size: 18px;
+        position: relative;
+        &::before {
+          content: "";
+          background-color: $thirdColor;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          position: absolute;
+          right: -20px;
+          top: 3px;
+        }
+      }
+      .card-text {
+        font-size: 16px;
+        color: #626262;
+        line-height: 25px;
+      }
+    }
+  }
+}
+// ================================================================================================================================================
+.our-library {
+  .image-header {
+    h5 {
+      &::after {
+        right: 48% !important;
+      }
+    }
+  }
+  .library-cards {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .row {
+      margin: 0;
+      .col-lg-10 {
+        padding: 0;
+      }
+    }
+    .card-image {
+      border: 1px solid #ddd;
+      background-color: #fff;
+      text-align: center;
+      height: 121px;
+      line-height: 121px;
+      img {
+        width: 67px;
+        height: 67px;
+        margin: auto;
+      }
+    }
+    .card-title {
+      font-size: 18px;
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+    .card-text {
+      i {
+        color: $thirdColor;
+      }
+      span {
+        color: $mainColor;
+        margin-right: 4px;
+      }
+    }
+  }
+}
+// ================================================================================================================================================
+.contact-us {
+  .image-header {
+    h5 {
+      &::after {
+        right: 48% !important;
+      }
+    }
+  }
+  .contact-us-content {
+    .list-contact {
+      .contact-information {
+        .card {
+          border: 0;
+          margin-top: 35px;
+          border-right: 1px solid #f5f5f5;
+          border-radius: 0;
 
+          .header-i {
+            font-size: 30px;
+            color: #000;
+            margin-bottom: 10px;
+          }
 
+          h6 {
+            font-weight: bold;
+            color: $mainColor;
+          }
 
+          p {
+            margin: 0;
+            color: #444;
+          }
+
+          .social {
+            margin-top: 15px;
+
+            span {
+              a {
+                color: #444;
+                font-size: 25px;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+
+        .first-card {
+          border-right: 0 !important;
+        }
+      }
+    }
+  }
+
+  .form-contact-page {
+    margin-top: 90px;
+    margin-bottom: 110px;
+
+    .my-contact-form {
+      width: 100% !important;
+      background-color: #fff;
+      box-shadow: 0 2.9px 14.3px -13px rgba(0, 0, 0, 0.14),
+        0 23px 114px -13px rgba(0, 0, 0, 0.28);
+      padding: 20px;
+      padding-top: 30px;
+      padding-bottom: 70px;
+
+      .form-group {
+        label {
+          font-weight: bold;
+        }
+
+        .form-control {
+          height: calc(1.5em + 0.75rem + 20px);
+          border: 1px solid #d1d1d1;
+          border-radius: 8px;
+        }
+      }
+
+      .form-text-area {
+        .form-control {
+          height: calc(1.5em + 0.75rem + 200px) !important;
+        }
+      }
+
+      .btn-submit {
+        text-align: center;
+        margin-top: 30px;
+
+        .btn {
+          background-color: #b31633;
+          width: 200px;
+          color: #fff;
+          padding: 15px;
+          box-shadow: 0px 6px 2px 0px #b31633;
+        }
+      }
+    }
+  }
+}
+
+// ================================================================================================================================================
+// start online consult
+.online-consult {
+  .online-consult-content {
+    margin-top: 60px;
+    margin-bottom: 70px;
+    // sytart search bar
+    .search-bar {
+      margin-bottom: 40px;
+      .search-bar-form {
+        background-color: #e9e9e9;
+        height: 80px;
+        padding: 20px;
+        border-radius: 8px;
+        .form-group {
+          .form-control {
+            border-radius: 5px;
+            border: 0;
+            height: calc(1.5em + 0.75rem + 10px);
+            font-size: 15px;
+          }
+        }
+
+        .btn {
+          border: 0;
+          border-radius: 5px;
+          padding: 0 !important;
+          height: calc(1.5em + 0.75rem + 10px);
+          width: 100%;
+          background-color: #b31633;
+          color: #fff;
+        }
+      }
+    }
+    .online-consult-cards {
+      .card {
+        border-radius: 0;
+        border: 0;
+        margin-bottom: 20px;
+        .card-img {
+          background-size: cover;
+          background-position: center;
+          height: 266px;
+          border-radius: 0;
+        }
+        .card-body {
+          background-color: #f2f2f2;
+          .card-title {
+            text-align: center;
+            position: relative;
+            padding-bottom: 25px;
+            a {
+              color: #000;
+              text-decoration: none;
+              &:hover {
+                color: $thirdColor;
+              }
+            }
+            &::after {
+              @extend %line-after;
+              right: 40% !important;
+              transform: translate(0, -40%) !important;
+              background-color: $thirdColor !important;
+              width: 55px !important;
+              height: 5px !important;
+            }
+          }
+          .card-text {
+            a {
+              color: $mainColor;
+              text-decoration: none;
+            }
+            i {
+              color: $thirdColor;
+              margin-left: 4px;
+            }
+            span {
+              color: $mainColor;
+            }
+          }
+          .card-link {
+            color: $thirdColor;
+            display: inline-block;
+            margin-top: 5px;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ================================================================================================================================================
+.consult-order-content {
+  .consult-order-content-header {
+    font-size: 30px;
+    margin-top: 45px;
+    color: $mainColor;
+    text-align: center;
+    position: relative;
+    padding-bottom: 30px;
+    &::after {
+      @extend %line-after;
+      left: 53%;
+      top: 100%;
+      transform: translate(-100%, -53%);
+      background-color: $thirdColor !important;
+      width: 60px !important;
+      height: 5px !important;
+    }
+  }
+  .card{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border: 0;
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+    .know-about{
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      display: inline-block;
+      background-color: $thirdColor;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .card-title{
+      a{
+        color: #000;
+      }
+    }
+    .card-image{
+      img{
+        width: 135px;
+        height: 135px;
+      }
+    }
+    .card-text{
+      display: block;
+      i{
+        color: $thirdColor;
+        margin-left: 4px;
+      }
+      span{
+        color: $mainColor;
+      }
+    }
+  }
+  .consult-order-form{
+    .form-group{
+      label{
+        font-weight: normal !important;
+        color: #1E2436;
+      }
+      .form-control{
+        &::placeholder{
+          color: #888;
+        }
+      }
+    }
+    .input-group{
+      background-color: #F2F2F2;
+      height: calc(1.5em + 0.75rem + 20px);
+      border-radius: 10px;
+      margin-top: 6px;
+      padding: 6px;
+      .custom-file-label{
+        border: 0;
+        background-color: transparent !important;
+        height: calc(1.5em + 0.75rem + 20px);
+        line-height: 35px;
+        &:focus{
+          outline: 0 ;
+          box-shadow: 0 !important;
+        }
+      }
+      .custom-file-input{
+        border: 0;
+        background-color: transparent !important;
+        &:focus{
+          outline: 0 ;
+          box-shadow: 0 !important;
+        }
+      }
+    }
+    .custom-file-input:lang(en)~.custom-file-label::after{
+      @extend %initlizeFonAwesomeAfter;
+      content: "\f0c1";
+      background-color: transparent;
+      height: calc(1.5em + 0.75rem + 20px);
+      line-height: 35px;
+      &:focus{
+        outline: 0 ;
+        box-shadow: 0 !important;
+      }
+
+    }
+  }
+}
 
 // ================================================================================================================================================
 
 // start footer
-footer{
-  background-color: #1A355A;
-  .row{
+footer {
+  background-color: #1a355a;
+  .row {
     margin: 0;
-    .col-lg-4{
+    .col-lg-4 {
       margin: 0;
       padding: 0;
     }
   }
-  .footer-img{
-    background-color: #22416B;
+  .footer-img {
+    background-color: #22416b;
     text-align: center;
     color: #fff;
     padding: 10px;
-    img{
+    img {
       width: 136px;
       height: 137px;
     }
-    p{
+    p {
       font-size: 15px;
       margin: 0;
       margin-top: 5px;
     }
   }
-  .links{
+  .links {
     padding: 30px;
     padding-top: 60px;
     padding-bottom: 0;
-    ul{
-      li{
+    ul {
+      li {
         float: right;
         width: 25%;
         margin-top: 10px;
         position: relative;
-        a{
+        a {
           color: #fff;
           text-decoration: none;
         }
-        &::before{
+        &::before {
           content: "";
           width: 7px;
           height: 7px;
@@ -995,16 +1439,16 @@ footer{
           background-color: $secondColor;
           position: absolute;
         }
-        .social{
-          a{
+        .social {
+          a {
             color: #fff;
             font-size: 18px;
             margin-left: 10px;
           }
         }
       }
-      li:last-child{
-        &::before{
+      li:last-child {
+        &::before {
           width: 0;
         }
       }
@@ -1012,110 +1456,133 @@ footer{
   }
 }
 
-.copy{
-  background-color: #0F223D;
+.copy {
+  background-color: #0f223d;
   text-align: center;
   padding: 18px;
-  p{
+  p {
     color: #fff;
     margin: 0;
     font-size: 14px;
   }
 }
 
-
-@media(max-width: 800px){
-  .middle-header{
+@media (max-width: 800px) {
+  .middle-header {
     height: auto;
-    .account-card{
-      .row{
+    .account-card {
+      .row {
         margin: 0;
       }
-      .col-md-3, .col-md-9{
+      .col-md-3,
+      .col-md-9 {
         margin: 0;
         padding: 0;
       }
     }
-    .social{
+    .social {
       margin-top: 60px;
     }
-    .logo{
-      p{
+    .logo {
+      p {
         font-size: 14px;
       }
     }
   }
-  .navbar{
+  .navbar {
     padding: 10px;
-    .navbar-nav{
+    .navbar-nav {
       margin-top: 15px;
-      .active{
+      .active {
         border: 0;
-        .nav-link{
+        .nav-link {
           background-color: $thirdColor;
         }
       }
     }
   }
-  .header{
-    .header-slider{
-      .slider-item{
-        .slider-item-content{
+  .header {
+    .header-slider {
+      .slider-item {
+        .slider-item-content {
           max-width: 100%;
         }
       }
     }
   }
-  .small-about{
+  .small-about {
     width: 100%;
   }
-  .services{
-    .services-img{
+  .services {
+    .services-img {
       display: none;
     }
   }
-  .numbers{
-    .card{
+  .numbers {
+    .card {
       margin-top: 20px;
     }
   }
-  footer{
-    .links{
+  footer {
+    .links {
       padding-top: 40px;
       padding-bottom: 20px;
     }
   }
-  .about-arab-lower{
-    .goals{
+  .about-arab-lower {
+    .goals {
       height: auto;
       padding-bottom: 20px;
     }
   }
+  .statics {
+    .card {
+      padding: 0;
+      padding-top: 30px;
+      padding-bottom: 25px;
+    }
+  }
+  .list-contact {
+    .contact-information {
+      .card {
+        border-right: 0 !important;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #f5f5f5 !important;
+      }
+    }
+  }
+  .online-consult {
+    .search-bar {
+      .search-bar-form {
+        height: auto !important;
+      }
+    }
+  }
 }
 
-@media(max-width: 524px){
-  .top-header{
-    .company-email{
+@media (max-width: 524px) {
+  .top-header {
+    .company-email {
       text-align: right;
       margin-top: 10px;
     }
   }
-  .middle-header{
-    .social{
+  .middle-header {
+    .social {
       margin-top: 0;
     }
-    .logo{
+    .logo {
       text-align: right;
       margin-top: 20px;
     }
-    .account-card{
-      img{
+    .account-card {
+      img {
         width: 60px;
         height: 50px !important;
       }
     }
   }
-  .posts{
+  .posts {
     .card {
       .overlay {
         .overlay-content {
@@ -1127,48 +1594,65 @@ footer{
         }
       }
     }
-  } 
-  .section-header{
-    &::after{
+  }
+  .section-header {
+    &::after {
       right: 34% !important;
     }
   }
-  .consult-slider{
-    .slick-next{
+  .consult-slider {
+    .slick-next {
       left: 88% !important;
     }
-    .slick-prev{
+    .slick-prev {
       left: 0 !important;
     }
   }
-  footer{
-    .links{
-      ul{
-        li{
+  footer {
+    .links {
+      ul {
+        li {
           width: 50%;
         }
       }
     }
   }
-  .books-search .books-slider .slider-item .card{
-    border: 1px solid #DDD;
+  .books-search .books-slider .slider-item .card {
+    border: 1px solid #ddd;
   }
-  .why{
-    .why-header{
-      h6{
-        &::after{
+  .why {
+    .why-header {
+      h6 {
+        &::after {
           left: 43% !important;
+        }
+      }
+    }
+  }
+  .statics {
+    .image-header {
+      .form-group {
+        width: 100%;
+      }
+    }
+  }
+  .condition {
+    .card {
+      .card-title {
+        &::before {
+          right: 0 !important;
+          margin-right: -20px;
         }
       }
     }
   }
 }
 
-@media(max-width: 376px){
-  footer{
-    .links{
-      ul{
-        li{
+@media (max-width: 376px) {
+  footer {
+    .links {
+      ul {
+        li {
           width: 100%;
         }
       }
@@ -1176,13 +1660,12 @@ footer{
   }
 }
 
-
-%section-header{
+%section-header {
   font-size: 42px;
   text-align: center;
   margin-top: 50px;
   color: $secondColor;
-  border-bottom: 2px solid #DDD;
+  border-bottom: 2px solid #ddd;
   padding-bottom: 20px;
   position: relative;
   margin-bottom: 30px;
@@ -1193,10 +1676,9 @@ footer{
   position: absolute;
   width: 100px;
   height: 3px;
-  background-color: #FF9408;
+  background-color: #ff9408;
   bottom: 0;
 }
-
 
 %initlizeFonAwesomeAfter {
   font-family: "Font Awesome 5 Free";

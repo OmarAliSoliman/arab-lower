@@ -233,7 +233,7 @@ img {
 }
 
 .all-in-color {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   padding-bottom: 40px;
 }
 
@@ -328,7 +328,9 @@ img {
 .posts .row {
   margin: 0;
 }
-.posts .row .col, .posts .row .col-md-4, .posts .row .col-lg {
+.posts .row .col,
+.posts .row .col-md-4,
+.posts .row .col-lg {
   padding: 0;
 }
 .posts .section-header {
@@ -434,7 +436,7 @@ img {
   border-radius: 0;
 }
 .consults .consult-slider .slider-item .card .card-body {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 .consults .consult-slider .slider-item .card .card-body .card-title {
   text-align: center;
@@ -482,7 +484,7 @@ img {
 }
 
 .numbers {
-  background-color: #B31633;
+  background-color: #b31633;
   margin-top: 122px;
   padding: 57px 81px;
 }
@@ -496,7 +498,8 @@ img {
   height: 38px;
   margin: auto;
 }
-.numbers .card .card-title, .numbers .card .card-text {
+.numbers .card .card-title,
+.numbers .card .card-text {
   color: #fff;
   margin: 0;
 }
@@ -728,7 +731,7 @@ img {
   margin-bottom: 30px;
 }
 .services-cards .card {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   text-align: center;
   border: 0;
   border-radius: 0;
@@ -786,7 +789,7 @@ img {
   padding-right: 10px;
   color: #000;
   font-size: 18px;
-  border-right: 3px solid #C5C5C5;
+  border-right: 3px solid #c5c5c5;
   text-decoration: none;
   transition: all 1s;
 }
@@ -820,8 +823,368 @@ img {
   color: #626262;
 }
 
+.statics h5::after {
+  right: 48% !important;
+  transform: translate(0, -48%);
+}
+.statics .form-group {
+  width: 30%;
+  margin: auto;
+  margin-top: 60px;
+}
+.statics .form-group .form-control {
+  background-color: transparent;
+  color: #fff;
+}
+.statics .statics-card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.statics .card {
+  background-color: #f8f8f8;
+  text-align: center;
+  border: 0;
+  border-radius: 11px;
+  margin-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 23px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding: 35px;
+}
+.statics .card .card-img img {
+  width: 37px;
+  height: 37px;
+  margin: auto;
+}
+.statics .card .card-title {
+  font-size: 54px;
+  color: #ccad53;
+}
+.statics .card .card-text {
+  font-size: 20px;
+  color: #1a355a;
+}
+
+.condition .condition-card {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+.condition .condition-card .card {
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 52px;
+}
+.condition .condition-card .card .card-title {
+  font-size: 18px;
+  position: relative;
+}
+.condition .condition-card .card .card-title::before {
+  content: "";
+  background-color: #ccad53;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  top: 3px;
+}
+.condition .condition-card .card .card-text {
+  font-size: 16px;
+  color: #626262;
+  line-height: 25px;
+}
+
+.our-library .image-header h5::after {
+  right: 48% !important;
+}
+.our-library .library-cards {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.our-library .card {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 0;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.our-library .card .row {
+  margin: 0;
+}
+.our-library .card .row .col-lg-10 {
+  padding: 0;
+}
+.our-library .card .card-image {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+  height: 121px;
+  line-height: 121px;
+}
+.our-library .card .card-image img {
+  width: 67px;
+  height: 67px;
+  margin: auto;
+}
+.our-library .card .card-title {
+  font-size: 18px;
+}
+.our-library .card .card-title a {
+  color: #000;
+  text-decoration: none;
+}
+.our-library .card .card-text i {
+  color: #ccad53;
+}
+.our-library .card .card-text span {
+  color: #1a355a;
+  margin-right: 4px;
+}
+
+.contact-us .image-header h5::after {
+  right: 48% !important;
+}
+.contact-us .contact-us-content .list-contact .contact-information .card {
+  border: 0;
+  margin-top: 35px;
+  border-right: 1px solid #f5f5f5;
+  border-radius: 0;
+}
+.contact-us .contact-us-content .list-contact .contact-information .card .header-i {
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.contact-us .contact-us-content .list-contact .contact-information .card h6 {
+  font-weight: bold;
+  color: #1a355a;
+}
+.contact-us .contact-us-content .list-contact .contact-information .card p {
+  margin: 0;
+  color: #444;
+}
+.contact-us .contact-us-content .list-contact .contact-information .card .social {
+  margin-top: 15px;
+}
+.contact-us .contact-us-content .list-contact .contact-information .card .social span a {
+  color: #444;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.contact-us .contact-us-content .list-contact .contact-information .first-card {
+  border-right: 0 !important;
+}
+.contact-us .form-contact-page {
+  margin-top: 90px;
+  margin-bottom: 110px;
+}
+.contact-us .form-contact-page .my-contact-form {
+  width: 100% !important;
+  background-color: #fff;
+  box-shadow: 0 2.9px 14.3px -13px rgba(0, 0, 0, 0.14), 0 23px 114px -13px rgba(0, 0, 0, 0.28);
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.contact-us .form-contact-page .my-contact-form .form-group label {
+  font-weight: bold;
+}
+.contact-us .form-contact-page .my-contact-form .form-group .form-control {
+  height: calc(1.5em + 0.75rem + 20px);
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+}
+.contact-us .form-contact-page .my-contact-form .form-text-area .form-control {
+  height: calc(1.5em + 0.75rem + 200px) !important;
+}
+.contact-us .form-contact-page .my-contact-form .btn-submit {
+  text-align: center;
+  margin-top: 30px;
+}
+.contact-us .form-contact-page .my-contact-form .btn-submit .btn {
+  background-color: #b31633;
+  width: 200px;
+  color: #fff;
+  padding: 15px;
+  box-shadow: 0px 6px 2px 0px #b31633;
+}
+
+.online-consult .online-consult-content {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.online-consult .online-consult-content .search-bar {
+  margin-bottom: 40px;
+}
+.online-consult .online-consult-content .search-bar .search-bar-form {
+  background-color: #e9e9e9;
+  height: 80px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.online-consult .online-consult-content .search-bar .search-bar-form .form-group .form-control {
+  border-radius: 5px;
+  border: 0;
+  height: calc(1.5em + 0.75rem + 10px);
+  font-size: 15px;
+}
+.online-consult .online-consult-content .search-bar .search-bar-form .btn {
+  border: 0;
+  border-radius: 5px;
+  padding: 0 !important;
+  height: calc(1.5em + 0.75rem + 10px);
+  width: 100%;
+  background-color: #b31633;
+  color: #fff;
+}
+.online-consult .online-consult-content .online-consult-cards .card {
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 20px;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-img {
+  background-size: cover;
+  background-position: center;
+  height: 266px;
+  border-radius: 0;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body {
+  background-color: #f2f2f2;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body .card-title {
+  text-align: center;
+  position: relative;
+  padding-bottom: 25px;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body .card-title a {
+  color: #000;
+  text-decoration: none;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body .card-title a:hover {
+  color: #ccad53;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after {
+  right: 40% !important;
+  transform: translate(0, -40%) !important;
+  background-color: #ccad53 !important;
+  width: 55px !important;
+  height: 5px !important;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body .card-text a {
+  color: #1a355a;
+  text-decoration: none;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body .card-text i {
+  color: #ccad53;
+  margin-left: 4px;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body .card-text span {
+  color: #1a355a;
+}
+.online-consult .online-consult-content .online-consult-cards .card .card-body .card-link {
+  color: #ccad53;
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.consult-order-content .consult-order-content-header {
+  font-size: 30px;
+  margin-top: 45px;
+  color: #1a355a;
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+.consult-order-content .consult-order-content-header::after {
+  left: 53%;
+  top: 100%;
+  transform: translate(-100%, -53%);
+  background-color: #ccad53 !important;
+  width: 60px !important;
+  height: 5px !important;
+}
+.consult-order-content .card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border: 0;
+  margin-top: 50px;
+  padding: 10px;
+  position: relative;
+}
+.consult-order-content .card .know-about {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: inline-block;
+  background-color: #ccad53;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.consult-order-content .card .card-title a {
+  color: #000;
+}
+.consult-order-content .card .card-image img {
+  width: 135px;
+  height: 135px;
+}
+.consult-order-content .card .card-text {
+  display: block;
+}
+.consult-order-content .card .card-text i {
+  color: #ccad53;
+  margin-left: 4px;
+}
+.consult-order-content .card .card-text span {
+  color: #1a355a;
+}
+.consult-order-content .consult-order-form .form-group label {
+  font-weight: normal !important;
+  color: #1E2436;
+}
+.consult-order-content .consult-order-form .form-group .form-control::placeholder {
+  color: #888;
+}
+.consult-order-content .consult-order-form .input-group {
+  background-color: #F2F2F2;
+  height: calc(1.5em + 0.75rem + 20px);
+  border-radius: 10px;
+  margin-top: 6px;
+  padding: 6px;
+}
+.consult-order-content .consult-order-form .input-group .custom-file-label {
+  border: 0;
+  background-color: transparent !important;
+  height: calc(1.5em + 0.75rem + 20px);
+  line-height: 35px;
+}
+.consult-order-content .consult-order-form .input-group .custom-file-label:focus {
+  outline: 0;
+  box-shadow: 0 !important;
+}
+.consult-order-content .consult-order-form .input-group .custom-file-input {
+  border: 0;
+  background-color: transparent !important;
+}
+.consult-order-content .consult-order-form .input-group .custom-file-input:focus {
+  outline: 0;
+  box-shadow: 0 !important;
+}
+.consult-order-content .consult-order-form .custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: "";
+  background-color: transparent;
+  height: calc(1.5em + 0.75rem + 20px);
+  line-height: 35px;
+}
+.consult-order-content .consult-order-form .custom-file-input:lang(en) ~ .custom-file-label::after:focus {
+  outline: 0;
+  box-shadow: 0 !important;
+}
+
 footer {
-  background-color: #1A355A;
+  background-color: #1a355a;
 }
 footer .row {
   margin: 0;
@@ -831,7 +1194,7 @@ footer .row .col-lg-4 {
   padding: 0;
 }
 footer .footer-img {
-  background-color: #22416B;
+  background-color: #22416b;
   text-align: center;
   color: #fff;
   padding: 10px;
@@ -880,7 +1243,7 @@ footer .links ul li:last-child::before {
 }
 
 .copy {
-  background-color: #0F223D;
+  background-color: #0f223d;
   text-align: center;
   padding: 18px;
 }
@@ -897,7 +1260,8 @@ footer .links ul li:last-child::before {
   .middle-header .account-card .row {
     margin: 0;
   }
-  .middle-header .account-card .col-md-3, .middle-header .account-card .col-md-9 {
+  .middle-header .account-card .col-md-3,
+.middle-header .account-card .col-md-9 {
     margin: 0;
     padding: 0;
   }
@@ -946,6 +1310,22 @@ footer .links ul li:last-child::before {
     height: auto;
     padding-bottom: 20px;
   }
+
+  .statics .card {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+
+  .list-contact .contact-information .card {
+    border-right: 0 !important;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f5f5f5 !important;
+  }
+
+  .online-consult .search-bar .search-bar-form {
+    height: auto !important;
+  }
 }
 @media (max-width: 524px) {
   .top-header .company-email {
@@ -989,11 +1369,20 @@ footer .links ul li:last-child::before {
   }
 
   .books-search .books-slider .slider-item .card {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
   }
 
   .why .why-header h6::after {
     left: 43% !important;
+  }
+
+  .statics .image-header .form-group {
+    width: 100%;
+  }
+
+  .condition .card .card-title::before {
+    right: 0 !important;
+    margin-right: -20px;
   }
 }
 @media (max-width: 376px) {
@@ -1006,22 +1395,22 @@ footer .links ul li:last-child::before {
   text-align: center;
   margin-top: 50px;
   color: #d52818;
-  border-bottom: 2px solid #DDD;
+  border-bottom: 2px solid #ddd;
   padding-bottom: 20px;
   position: relative;
   margin-bottom: 30px;
 }
 
-.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after {
+.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after {
   content: "";
   position: absolute;
   width: 100px;
   height: 3px;
-  background-color: #FF9408;
+  background-color: #ff9408;
   bottom: 0;
 }
 
-.consults .consult-slider .slick-arrow::before, .services-cards .card .card-link::after, .single-serv-sidebar ul li:hover a::before {
+.consults .consult-slider .slick-arrow::before, .services-cards .card .card-link::after, .single-serv-sidebar ul li:hover a::before, .consult-order-content .consult-order-form .custom-file-input:lang(en) ~ .custom-file-label::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
