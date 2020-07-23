@@ -40,6 +40,41 @@ img {
   outline: 0 !important;
 }
 
+
+.pagination {
+  width: 100%;
+  margin: auto;
+  padding-right: 260px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+
+  .page-item {
+    text-align: center;
+
+    .page-link {
+      background-color: transparent !important;
+      padding: 0 !important;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 50%;
+      color: #000;
+      margin-right: 5px;
+      border: 1px solid #BAC6D3;
+    }
+  }
+
+  .active {
+    .page-link {
+      background-color: $mainColor !important;
+      border: 1px solid $mainColor !important;
+      color: #fff;
+    }
+  }
+}
+
+// =======================================================================================================
+
 // start top header
 .top-header {
   padding-top: 10px;
@@ -1387,6 +1422,467 @@ img {
     }
   }
 }
+// ================================================================================================================================================
+// online payment
+.online-payment{
+  margin-bottom: 90px;
+  .online-payment-header {
+    font-size: 30px;
+    margin-top: 45px;
+    color: $mainColor;
+    text-align: center;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    &::after {
+      @extend %line-after;
+      left: 53%;
+      top: 100%;
+      transform: translate(-100%, -53%);
+      background-color: $thirdColor !important;
+      width: 60px !important;
+      height: 5px !important;
+    }
+  }
+  .online-payment-option-accordion{
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 25px;
+    padding-bottom: 30px;
+    .payment-way{
+      margin-bottom: 30px;
+    }
+    #accordion {
+      .card {
+        margin: 5px;
+        border: 0;
+        .card-header {
+          height: auto;
+          border: 0;
+          padding: 10px;
+          position: relative;
+          background-color: transparent;
+          border-bottom: 1px solid #DDD;
+          .btn {
+            padding-bottom: 0;
+          }
+          .btn-link {
+            text-decoration: none;
+            img {
+              width: 40px;
+              // margin-right: 40px;
+              position: absolute;
+              left: 10px;
+              top: 10px;
+            }
+            .visa-img{
+              img{
+                top: 18px !important;
+              }
+             img:first-child{
+               left: 50px;
+             }
+            }
+            label {
+              font-size: 16px;
+              span {
+                display: inline-block;
+                padding-right: 8px;
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+      .show {
+        .card-header {
+          background-color: red !important;
+        }
+      }
+      .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        // margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+        }
+      }
+      .checkmark {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 20px;
+        width: 20px;
+        background-color: transparent;
+        border: 1px solid #000;
+        border-radius: 50%;
+        &::after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+      }
+      .container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+      .container input:checked ~ .checkmark {
+        background-color: $thirdColor;
+        border: 0;
+      }
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+      .container .checkmark:after {
+        top: 6px;
+        left: 6px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+      }
+
+      .btn-submit-payment{
+        background-color: #284974;
+        color: #fff;
+      }
+
+    }
+    .card-visa{
+      text-align: center;
+      img{
+        width: 326px;
+        height: 225px;
+        margin: auto;
+      }
+      .form-info{
+        margin-top: 20px;
+        text-align: right;
+      }
+    }
+  }
+
+  .btn-payment{
+    text-align: left;
+   .btn{
+    border: 0;
+    border-radius: 5px;
+    padding: 0 !important;
+    height: calc(1.5em + 0.75rem + 10px);
+    width: 20%;
+    border-radius: 0;
+    margin-top: 30px;
+    background-color: #b31633;
+    color: #fff;
+   }
+  }
+
+  .total-price{
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 25px;
+    height: 160px;
+    h6{
+      margin-top: 20px;
+    }
+    h5{
+      color: $thirdColor;
+      font-size: 43px;
+    }
+  }
+}
+// ================================================================================================================================================
+.legal-posts{
+  .legal-posts-content{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    .filter{
+      .card{
+        background-color: #fff;
+        border: 1px solid #C5C5C5;
+        border-radius: 6px;
+        padding: 0;
+        .card-header{
+          background-color: transparent;
+          text-align: center;
+          h5{
+            margin: 0;
+            font-size: 17px;
+          }
+        }
+        .card-body{
+          // padding: 0;
+        }
+      }
+      #accordion{
+        .card{
+          border: 0;
+          .card-header{
+            text-align: right;
+            padding: 0;
+            border: 0;
+            border-bottom: 1px solid #C5C5C5;
+            position: relative; 
+            .btn-link{
+              color: #000;
+              &::after{
+                @extend %initlizeFonAwesomeAfter;
+                content: "\f0d7";
+                position: absolute;
+                left: 2%;
+                top: 50%;
+                transform: translate(-2%, -50%);
+                transition: all 0.5s;
+              }
+            }
+          }
+
+          .card-body{
+            .form-check{
+              font-size: 14px;
+              margin-top: 20px;
+            }
+          }
+
+          .card-header{
+            .btn-link[aria-expanded="true"]{
+              opacity: 1;
+              &::after{
+                left: 2%;
+                top: 30%;
+                transform: translate(-2%, -30%);
+                transform: rotate(180deg);
+              }
+            }
+          }
+        }
+      }
+      .btn-filter{
+        padding: 20px;
+       .btn{
+        background-color: rgba(179, 22, 51, 0.9);
+        color: #fff;
+        height: 30px;
+        line-height: 1px;
+       }
+      }
+    }
+    .add-post{
+      text-align: left;
+      .btn{
+        background-color: rgba(179, 22, 51, 0.9);
+        color: #fff;
+        padding: 15px;
+        width: 200px;
+      }
+      .card {
+        border-radius: 0;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        margin-top: 40px;
+        .card-img {
+          background-size: cover;
+          background-position: center;
+          height: 266px;
+          border-radius: 0;
+        }
+        .card-body{
+          text-align: right;
+        }
+        .card-text{
+          color: #C5C5C5;
+          font-size: 16px;
+        }
+        .card-title{
+          position: relative;
+          padding-bottom: 20px;
+          &::after {
+            @extend %line-after;
+            right: 0% !important;
+            transform: translate(0, -40%) !important;
+            background-color: $thirdColor !important;
+            width: 55px !important;
+            height: 5px !important;
+          } 
+        }
+        .number-info{
+          position: relative;
+          width: 100%;
+          display: block;
+          .card-link{
+            font-size: 14px;
+            color: #000;
+
+          }
+          .number{
+            position: absolute;
+            left:0px;
+            display: inline-block;
+            font-size: 14px;
+            color: $mainColor;
+            background-color: #f3f3f3;
+            width: 50px;
+            text-align: center;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+  }
+  .department-details-search{
+    .input-group{
+      border: 1px solid #C5C5C5;
+      border-radius: 6px;
+      padding: 5px;
+      .form-control{
+        border: 0;
+      }
+      .input-group-text{
+        background-color: $thirdColor;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+      }
+    }
+  }
+  .department-details-cards{
+    .card{
+      background-color: #F9F9F9;
+      position: relative;
+      overflow: hidden;
+      .fa-star{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        line-height: 120px;
+        text-align: right;
+        padding-right: 25px;
+        color: #fff;
+        background-color: $mainColor;
+        border-radius: 50%;
+        left: -30px;
+        top: -30px;
+        font-size: 30px;
+      }
+      .card-text{
+        position: relative;
+        border-bottom: 1px solid $mainColor;
+        i{
+          position: absolute;
+          right: 0;
+          color: $mainColor;
+          font-size: 20px;
+          top: 6px;
+        }
+        p{
+          padding-right: 30px;
+          font-size: 18px;
+          line-height: 30px;
+          max-width: 90%;
+          cursor: pointer;
+          a{
+            color: $mainColor;
+            text-decoration: none;
+          }
+          &:hover{
+            a{
+              color: $thirdColor;
+            }
+          }
+        }
+      }
+      .card-body{
+        position: relative;
+        img{
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          position: absolute;
+          right: 20px;
+        }
+        .post-info{
+          display: inline-block;
+          padding-right: 70px;
+          p{
+            margin: 0;
+            a{
+              color: $mainColor;
+            }
+          }
+          i{
+            margin-left: 5px;
+            color: $thirdColor;
+            margin-top: 10px;
+          }
+          span{
+            color: $mainColor;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ================================================================================================================================================
+// start add-legal-post
+
+.add-legal-post{
+  .btn-submit{
+    text-align: left !important;
+    .btn{
+      padding: 8px !important;
+      line-height: 30px;
+    }
+  }
+  .note{
+    padding-top: 40px;
+  }
+}
+
+// ================================================================================================================================================
+
+.work-team{
+  .work-team-content{
+    .work-team-cards{
+      .card{
+        background-color: #F5F5F5;
+        .card-body{
+          .card-title{
+            text-align: center !important;
+            &::after{
+              right: 38% !important;
+            }
+          }
+        }
+        .card-link-parent{
+          text-align: center;
+        }
+        .card-link{
+          display: inline-block;
+          border: 1px solid $mainColor;
+          padding: 6px;
+          border-radius: 5px;
+          background-color: #fff !important;
+          width: 80%;
+          text-align: center;
+          color: $thirdColor;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
 
 // ================================================================================================================================================
 
@@ -1468,6 +1964,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .pagination{
+    padding-right: 0;
+  }
   .middle-header {
     height: auto;
     .account-card {
@@ -1556,6 +2055,11 @@ footer {
       .search-bar-form {
         height: auto !important;
       }
+    }
+  }
+  .add-legal-post{
+    .btn-submit{
+      text-align: right !important;
     }
   }
 }

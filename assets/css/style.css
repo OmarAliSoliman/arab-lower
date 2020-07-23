@@ -32,6 +32,33 @@ img {
   outline: 0 !important;
 }
 
+.pagination {
+  width: 100%;
+  margin: auto;
+  padding-right: 260px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+.pagination .page-item {
+  text-align: center;
+}
+.pagination .page-item .page-link {
+  background-color: transparent !important;
+  padding: 0 !important;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  color: #000;
+  margin-right: 5px;
+  border: 1px solid #BAC6D3;
+}
+.pagination .active .page-link {
+  background-color: #1a355a !important;
+  border: 1px solid #1a355a !important;
+  color: #fff;
+}
+
 .top-header {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1183,6 +1210,413 @@ img {
   box-shadow: 0 !important;
 }
 
+.online-payment {
+  margin-bottom: 90px;
+}
+.online-payment .online-payment-header {
+  font-size: 30px;
+  margin-top: 45px;
+  color: #1a355a;
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.online-payment .online-payment-header::after {
+  left: 53%;
+  top: 100%;
+  transform: translate(-100%, -53%);
+  background-color: #ccad53 !important;
+  width: 60px !important;
+  height: 5px !important;
+}
+.online-payment .online-payment-option-accordion {
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  padding-bottom: 30px;
+}
+.online-payment .online-payment-option-accordion .payment-way {
+  margin-bottom: 30px;
+}
+.online-payment .online-payment-option-accordion #accordion .card {
+  margin: 5px;
+  border: 0;
+}
+.online-payment .online-payment-option-accordion #accordion .card .card-header {
+  height: auto;
+  border: 0;
+  padding: 10px;
+  position: relative;
+  background-color: transparent;
+  border-bottom: 1px solid #DDD;
+}
+.online-payment .online-payment-option-accordion #accordion .card .card-header .btn {
+  padding-bottom: 0;
+}
+.online-payment .online-payment-option-accordion #accordion .card .card-header .btn-link {
+  text-decoration: none;
+}
+.online-payment .online-payment-option-accordion #accordion .card .card-header .btn-link img {
+  width: 40px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.online-payment .online-payment-option-accordion #accordion .card .card-header .btn-link .visa-img img {
+  top: 18px !important;
+}
+.online-payment .online-payment-option-accordion #accordion .card .card-header .btn-link .visa-img img:first-child {
+  left: 50px;
+}
+.online-payment .online-payment-option-accordion #accordion .card .card-header .btn-link label {
+  font-size: 16px;
+}
+.online-payment .online-payment-option-accordion #accordion .card .card-header .btn-link label span {
+  display: inline-block;
+  padding-right: 8px;
+  color: #000;
+}
+.online-payment .online-payment-option-accordion #accordion .show .card-header {
+  background-color: red !important;
+}
+.online-payment .online-payment-option-accordion #accordion .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.online-payment .online-payment-option-accordion #accordion .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.online-payment .online-payment-option-accordion #accordion .checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.online-payment .online-payment-option-accordion #accordion .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.online-payment .online-payment-option-accordion #accordion .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.online-payment .online-payment-option-accordion #accordion .container input:checked ~ .checkmark {
+  background-color: #ccad53;
+  border: 0;
+}
+.online-payment .online-payment-option-accordion #accordion .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.online-payment .online-payment-option-accordion #accordion .container .checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.online-payment .online-payment-option-accordion #accordion .btn-submit-payment {
+  background-color: #284974;
+  color: #fff;
+}
+.online-payment .online-payment-option-accordion .card-visa {
+  text-align: center;
+}
+.online-payment .online-payment-option-accordion .card-visa img {
+  width: 326px;
+  height: 225px;
+  margin: auto;
+}
+.online-payment .online-payment-option-accordion .card-visa .form-info {
+  margin-top: 20px;
+  text-align: right;
+}
+.online-payment .btn-payment {
+  text-align: left;
+}
+.online-payment .btn-payment .btn {
+  border: 0;
+  border-radius: 5px;
+  padding: 0 !important;
+  height: calc(1.5em + 0.75rem + 10px);
+  width: 20%;
+  border-radius: 0;
+  margin-top: 30px;
+  background-color: #b31633;
+  color: #fff;
+}
+.online-payment .total-price {
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  height: 160px;
+}
+.online-payment .total-price h6 {
+  margin-top: 20px;
+}
+.online-payment .total-price h5 {
+  color: #ccad53;
+  font-size: 43px;
+}
+
+.legal-posts .legal-posts-content {
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+.legal-posts .legal-posts-content .filter .card {
+  background-color: #fff;
+  border: 1px solid #C5C5C5;
+  border-radius: 6px;
+  padding: 0;
+}
+.legal-posts .legal-posts-content .filter .card .card-header {
+  background-color: transparent;
+  text-align: center;
+}
+.legal-posts .legal-posts-content .filter .card .card-header h5 {
+  margin: 0;
+  font-size: 17px;
+}
+.legal-posts .legal-posts-content .filter #accordion .card {
+  border: 0;
+}
+.legal-posts .legal-posts-content .filter #accordion .card .card-header {
+  text-align: right;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #C5C5C5;
+  position: relative;
+}
+.legal-posts .legal-posts-content .filter #accordion .card .card-header .btn-link {
+  color: #000;
+}
+.legal-posts .legal-posts-content .filter #accordion .card .card-header .btn-link::after {
+  content: "";
+  position: absolute;
+  left: 2%;
+  top: 50%;
+  transform: translate(-2%, -50%);
+  transition: all 0.5s;
+}
+.legal-posts .legal-posts-content .filter #accordion .card .card-body .form-check {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.legal-posts .legal-posts-content .filter #accordion .card .card-header .btn-link[aria-expanded=true] {
+  opacity: 1;
+}
+.legal-posts .legal-posts-content .filter #accordion .card .card-header .btn-link[aria-expanded=true]::after {
+  left: 2%;
+  top: 30%;
+  transform: translate(-2%, -30%);
+  transform: rotate(180deg);
+}
+.legal-posts .legal-posts-content .filter .btn-filter {
+  padding: 20px;
+}
+.legal-posts .legal-posts-content .filter .btn-filter .btn {
+  background-color: rgba(179, 22, 51, 0.9);
+  color: #fff;
+  height: 30px;
+  line-height: 1px;
+}
+.legal-posts .legal-posts-content .add-post {
+  text-align: left;
+}
+.legal-posts .legal-posts-content .add-post .btn {
+  background-color: rgba(179, 22, 51, 0.9);
+  color: #fff;
+  padding: 15px;
+  width: 200px;
+}
+.legal-posts .legal-posts-content .add-post .card {
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  margin-top: 40px;
+}
+.legal-posts .legal-posts-content .add-post .card .card-img {
+  background-size: cover;
+  background-position: center;
+  height: 266px;
+  border-radius: 0;
+}
+.legal-posts .legal-posts-content .add-post .card .card-body {
+  text-align: right;
+}
+.legal-posts .legal-posts-content .add-post .card .card-text {
+  color: #C5C5C5;
+  font-size: 16px;
+}
+.legal-posts .legal-posts-content .add-post .card .card-title {
+  position: relative;
+  padding-bottom: 20px;
+}
+.legal-posts .legal-posts-content .add-post .card .card-title::after {
+  right: 0% !important;
+  transform: translate(0, -40%) !important;
+  background-color: #ccad53 !important;
+  width: 55px !important;
+  height: 5px !important;
+}
+.legal-posts .legal-posts-content .add-post .card .number-info {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.legal-posts .legal-posts-content .add-post .card .number-info .card-link {
+  font-size: 14px;
+  color: #000;
+}
+.legal-posts .legal-posts-content .add-post .card .number-info .number {
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+  font-size: 14px;
+  color: #1a355a;
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+.legal-posts .department-details-search .input-group {
+  border: 1px solid #C5C5C5;
+  border-radius: 6px;
+  padding: 5px;
+}
+.legal-posts .department-details-search .input-group .form-control {
+  border: 0;
+}
+.legal-posts .department-details-search .input-group .input-group-text {
+  background-color: #ccad53;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+.legal-posts .department-details-cards .card {
+  background-color: #F9F9F9;
+  position: relative;
+  overflow: hidden;
+}
+.legal-posts .department-details-cards .card .fa-star {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  line-height: 120px;
+  text-align: right;
+  padding-right: 25px;
+  color: #fff;
+  background-color: #1a355a;
+  border-radius: 50%;
+  left: -30px;
+  top: -30px;
+  font-size: 30px;
+}
+.legal-posts .department-details-cards .card .card-text {
+  position: relative;
+  border-bottom: 1px solid #1a355a;
+}
+.legal-posts .department-details-cards .card .card-text i {
+  position: absolute;
+  right: 0;
+  color: #1a355a;
+  font-size: 20px;
+  top: 6px;
+}
+.legal-posts .department-details-cards .card .card-text p {
+  padding-right: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 90%;
+  cursor: pointer;
+}
+.legal-posts .department-details-cards .card .card-text p a {
+  color: #1a355a;
+  text-decoration: none;
+}
+.legal-posts .department-details-cards .card .card-text p:hover a {
+  color: #ccad53;
+}
+.legal-posts .department-details-cards .card .card-body {
+  position: relative;
+}
+.legal-posts .department-details-cards .card .card-body img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+}
+.legal-posts .department-details-cards .card .card-body .post-info {
+  display: inline-block;
+  padding-right: 70px;
+}
+.legal-posts .department-details-cards .card .card-body .post-info p {
+  margin: 0;
+}
+.legal-posts .department-details-cards .card .card-body .post-info p a {
+  color: #1a355a;
+}
+.legal-posts .department-details-cards .card .card-body .post-info i {
+  margin-left: 5px;
+  color: #ccad53;
+  margin-top: 10px;
+}
+.legal-posts .department-details-cards .card .card-body .post-info span {
+  color: #1a355a;
+  font-size: 16px;
+}
+
+.add-legal-post .btn-submit {
+  text-align: left !important;
+}
+.add-legal-post .btn-submit .btn {
+  padding: 8px !important;
+  line-height: 30px;
+}
+.add-legal-post .note {
+  padding-top: 40px;
+}
+
+.work-team .work-team-content .work-team-cards .card {
+  background-color: #F5F5F5;
+}
+.work-team .work-team-content .work-team-cards .card .card-body .card-title {
+  text-align: center !important;
+}
+.work-team .work-team-content .work-team-cards .card .card-body .card-title::after {
+  right: 38% !important;
+}
+.work-team .work-team-content .work-team-cards .card .card-link-parent {
+  text-align: center;
+}
+.work-team .work-team-content .work-team-cards .card .card-link {
+  display: inline-block;
+  border: 1px solid #1a355a;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #fff !important;
+  width: 80%;
+  text-align: center;
+  color: #ccad53;
+  margin-top: 10px;
+}
+
 footer {
   background-color: #1a355a;
 }
@@ -1254,6 +1688,10 @@ footer .links ul li:last-child::before {
 }
 
 @media (max-width: 800px) {
+  .pagination {
+    padding-right: 0;
+  }
+
   .middle-header {
     height: auto;
   }
@@ -1325,6 +1763,10 @@ footer .links ul li:last-child::before {
 
   .online-consult .search-bar .search-bar-form {
     height: auto !important;
+  }
+
+  .add-legal-post .btn-submit {
+    text-align: right !important;
   }
 }
 @media (max-width: 524px) {
@@ -1401,7 +1843,7 @@ footer .links ul li:last-child::before {
   margin-bottom: 30px;
 }
 
-.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after {
+.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after, .online-payment .online-payment-header::after, .legal-posts .legal-posts-content .add-post .card .card-title::after {
   content: "";
   position: absolute;
   width: 100px;
@@ -1410,7 +1852,7 @@ footer .links ul li:last-child::before {
   bottom: 0;
 }
 
-.consults .consult-slider .slick-arrow::before, .services-cards .card .card-link::after, .single-serv-sidebar ul li:hover a::before, .consult-order-content .consult-order-form .custom-file-input:lang(en) ~ .custom-file-label::after {
+.consults .consult-slider .slick-arrow::before, .services-cards .card .card-link::after, .single-serv-sidebar ul li:hover a::before, .consult-order-content .consult-order-form .custom-file-input:lang(en) ~ .custom-file-label::after, .legal-posts .legal-posts-content .filter #accordion .card .card-header .btn-link::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
