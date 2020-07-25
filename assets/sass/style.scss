@@ -1882,6 +1882,257 @@ img {
     }
   }
 }
+// ================================================================================================================================================
+.post-details{
+  margin-bottom: 60px;
+  .post-details-header{
+    margin: 16px 0 32px 0;
+  }
+  .main-card{
+    position: relative;
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+    img, i{
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      position: absolute;
+      right: 0;
+    }
+    span{
+      padding-right: 70px;
+      p,h6{
+        margin: 0;
+      }
+      p{
+        font-size: 13px;
+        color: #888;
+        margin-top: 6px;
+      }
+      h6{
+        font-size: 15px;
+        color: #626262;
+        margin-top: 5px;
+      }
+    }
+  }
+  .i-card{
+    i{
+      color: #C5C5C5;
+      top: 7px;
+    }
+    span{
+      padding-right: 20px;
+    }
+  }
+  .post-details-img{
+    height: 412px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+  }
+  .add-fav-btn{
+    .btn{
+      background-color: $mainColor;
+      color: #fff;
+      margin: 38px 0 30px 0;
+    }
+  }
+  .post-details-par{
+    color: #999;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .anouther-subjects{
+    margin-top: 64px;
+    h5{
+      position: relative;
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+      &::after{
+        content: url('../images/an.png');
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  .another-subjects-cards {
+    .card{
+      background-color: #F9F9F9;
+      position: relative;
+      overflow: hidden;
+      border: 0;
+      padding: 15px;
+      margin-bottom: 20px;
+      .fa-star{
+        position: absolute !important;
+        width: 100px;
+        height: 100px;
+        line-height: 120px;
+        text-align: right;
+        padding-right: 25px;
+        color: #fff;
+        background-color: $mainColor;
+        border-radius: 50%;
+        left: -30px !important;
+        top: -30px !important;
+        font-size: 30px;
+      }
+      .card-text{
+        position: relative;
+        border-bottom: 1px solid #064066a1;
+        i{
+          position: absolute;
+          right: 0;
+          color: $mainColor;
+          font-size: 20px;
+          top: 6px;
+        }
+        p{
+          padding-right: 30px;
+          font-size: 18px;
+          line-height: 30px;
+          max-width: 90%;
+          cursor: pointer;
+          a{
+            color: $mainColor;
+            text-decoration: none;
+          }
+          &:hover{
+            a{
+              color: $thirdColor;
+            }
+          }
+        }
+      }
+      .card-body{
+        position: relative;
+        img{
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          position: absolute;
+          right: 20px;
+        }
+        .post-info{
+          display: inline-block;
+          padding-right: 70px;
+          p{
+            margin: 0;
+            a{
+              color: $mainColor;
+            }
+          }
+          i{
+            margin-left: 5px;
+            color: $thirdColor;
+            margin-top: 10px;
+          }
+          span{
+            color: $mainColor;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// ================================================================================================================================================
+.join-to-the-team-condition{
+  .join-to-the-team-condition-header{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 30px;
+    &::after{
+      @extend %line-after;
+      right: 48% !important;
+      transform: translate(0, -40%) !important;
+      background-color: $thirdColor !important;
+      width: 55px !important;
+      height: 5px !important;
+    }
+  }
+  .condition-card{
+    .condition-subject{
+      position: relative;
+      padding-bottom: 35px;
+      &::after{
+        content: url('../images/an.png');
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+    .container{
+      .all-condition-cards{
+        background-color: #fff;
+        margin-top: 30px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        padding: 30px;
+      }
+    }
+  }
+}
+
+
+// ================================================================================================================================================
+.join-to-the-team-1{
+  .joining-form{
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 40px;
+    .form-group{
+      .form-control{
+        height: 70px;
+      }
+    }
+    .add-day{
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      i{
+        color: $secondColor;
+      }
+      span{
+        color: $mainColor;
+      }
+    }
+  }
+  .btn-send-order{
+    text-align: center;
+    margin-top: 20px;
+    .btn{
+      background-color: #b31633;
+      color: #fff;
+      width: 200px;
+    }
+  }
+}
+
+
+// ================================================================================================================================================
+
+
+
+// ================================================================================================================================================
+
+
+
+// ================================================================================================================================================
+
+
+
+// ================================================================================================================================================
+
+
+// ================================================================================================================================================
 
 
 // ================================================================================================================================================
@@ -2060,6 +2311,11 @@ footer {
   .add-legal-post{
     .btn-submit{
       text-align: right !important;
+    }
+  }
+  .post-details{
+    .card{
+      margin-bottom: 15px;
     }
   }
 }
