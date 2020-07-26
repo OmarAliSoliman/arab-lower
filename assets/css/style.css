@@ -1936,6 +1936,279 @@ img {
   font-size: 18px;
 }
 
+.free-consult-details-replay .card {
+  background-color: #F9F2F9;
+  border: 0;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+.free-consult-details-replay .card .card-image {
+  position: relative;
+  padding-right: 60px;
+}
+.free-consult-details-replay .card .card-image img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+.free-consult-details-replay .card .card-image .know-him {
+  position: absolute;
+  top: 3px;
+  background-color: #CCAD53;
+  color: #fff;
+  padding: 3px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.free-consult-details-replay .card .card-image .info {
+  display: inline-block;
+  margin-top: 7px;
+}
+.free-consult-details-replay .card .card-image .info h6, .free-consult-details-replay .card .card-image .info p {
+  margin: 0;
+}
+.free-consult-details-replay .card .card-image .info h6 {
+  font-size: 16px;
+}
+.free-consult-details-replay .card .card-image .info p {
+  font-size: 14px;
+  color: #DDD;
+  margin-top: 4px;
+}
+.free-consult-details-replay .card .card-text {
+  margin-top: 20px;
+  width: 90%;
+}
+.free-consult-details-replay .card:hover {
+  background-color: #F2F9F9;
+}
+
+.legal-library .legal-library-content .legal-library-cards .card {
+  padding: 10px;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-img {
+  position: relative !important;
+  height: 255px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(235, 235, 235, 0.4);
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-body {
+  padding: 0;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-body .card-title {
+  font-size: 18px;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-body .card-title a {
+  color: #000;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-body .card-text {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-body .card-text i {
+  color: #ccad53;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-body .card-text span {
+  color: #1a355a;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-body .card-link {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.legal-library .legal-library-content .legal-library-cards .card .card-body .card-link a {
+  color: #ccad53;
+}
+.legal-library .pagination {
+  padding-right: 400px;
+}
+
+.my-account-consult-details .my-account-consult-details-content {
+  margin-top: 30px !important;
+}
+.my-account-consult-details .my-account-consult-details-par p {
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+}
+.my-account-consult-details .my-acount-card-info .card {
+  background-color: transparent;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}
+.my-account-consult-details .my-acount-card-info .card .card-img {
+  text-align: center;
+}
+.my-account-consult-details .my-acount-card-info .card .card-img img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  margin: auto;
+}
+.my-account-consult-details .my-acount-card-info .card .card-img .name {
+  margin-top: 10px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.my-account-consult-details .my-acount-card-info .card .card-img .name::after {
+  right: 40%;
+  bottom: 0;
+  width: 50px !important;
+  height: 6px !important;
+  background-color: #ccad53 !important;
+}
+.my-account-consult-details .my-acount-card-info .card .card-body {
+  position: relative;
+  padding: 40px;
+}
+.my-account-consult-details .my-acount-card-info .card .card-body .card-text i {
+  position: absolute;
+  right: 17px;
+  margin-top: 5px;
+}
+.my-account-consult-details .my-acount-card-info .card .card-body .card-text span {
+  color: #ddd;
+  font-size: 16px !important;
+}
+.my-account-consult-details .my-acount-card-info .card .card-body .card-text p {
+  font-size: 16px;
+  color: #1a355a;
+  margin-right: 4px;
+  margin-top: 2px;
+}
+.my-account-consult-details .my-acount-card-info .card .card-body .card-text p a {
+  color: #1a355a;
+  text-decoration: none;
+}
+.my-account-consult-details .my-account-price .card {
+  text-align: center;
+  padding: 30px !important;
+}
+.my-account-consult-details .my-account-price .card p, .my-account-consult-details .my-account-price .card h5 {
+  margin: 0;
+}
+.my-account-consult-details .my-account-price .card p {
+  font-size: 18px;
+}
+.my-account-consult-details .my-account-price .card h5 {
+  font-size: 43px;
+  color: #ccad53;
+}
+.my-account-consult-details .my-acount-new-appointemtn {
+  text-align: center;
+}
+.my-account-consult-details .my-acount-new-appointemtn .card {
+  padding: 20px;
+}
+.my-account-consult-details .my-acount-new-appointemtn h6 {
+  font-size: 18px;
+}
+.my-account-consult-details .my-acount-new-appointemtn a {
+  font-size: 16px;
+  color: #1a355a;
+  text-decoration: none;
+}
+.my-account-consult-details .my-acount-new-appointemtn .appointment-accept {
+  background-color: #b31633;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.my-account-consult-details .new-appointment-order .btn {
+  width: 100%;
+  background-color: #b31633;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.audio-call {
+  margin-bottom: 100px;
+}
+.audio-call .card {
+  background-color: #1a355a;
+  text-align: center;
+  border-radius: 5px !important;
+  padding-top: 38px;
+  margin-top: 15px;
+}
+.audio-call .card h6 {
+  color: #fff;
+  font-size: 24px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.audio-call .card h6::after {
+  right: 48%;
+  bottom: 0;
+  width: 50px !important;
+  height: 6px !important;
+  background-color: #ccad53 !important;
+}
+.audio-call .audio-call-pic {
+  margin-top: 35px;
+}
+.audio-call .audio-call-pic img {
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  margin: auto;
+}
+.audio-call .audio-call-pic .first {
+  margin-right: 100px;
+}
+.audio-call .audio-call-pic .second {
+  margin-left: 150px;
+}
+.audio-call .cancel-call {
+  background-color: #b31633;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  width: 20%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+.video-call .video-call-pic .card-image-call {
+  height: 295px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+.video-call .video-call-pic .card-image-call .img-video-header {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  right: 28px;
+  top: 15px;
+}
+
 footer {
   background-color: #1a355a;
 }
@@ -2095,6 +2368,10 @@ footer .links ul li:last-child::before {
   .add-free-consult .btn-add-free-consult {
     text-align: center !important;
   }
+
+  .legal-library .pagination {
+    padding-right: 0 !important;
+  }
 }
 @media (max-width: 524px) {
   .top-header .company-email {
@@ -2153,6 +2430,14 @@ footer .links ul li:last-child::before {
     right: 0 !important;
     margin-right: -20px;
   }
+
+  .audio-call .audio-call-pic img {
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+  }
+  .audio-call .cancel-call {
+    width: 80%;
+  }
 }
 @media (max-width: 376px) {
   footer .links ul li {
@@ -2174,7 +2459,7 @@ footer .links ul li:last-child::before {
   margin-bottom: 30px;
 }
 
-.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after, .online-payment .online-payment-header::after, .legal-posts .legal-posts-content .add-post .card .card-title::after, .join-to-the-team-condition .join-to-the-team-condition-header::after, .notifaction-page .notification-page-header::after {
+.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after, .online-payment .online-payment-header::after, .legal-posts .legal-posts-content .add-post .card .card-title::after, .join-to-the-team-condition .join-to-the-team-condition-header::after, .notifaction-page .notification-page-header::after, .my-account-consult-details .my-acount-card-info .card .card-img .name::after, .audio-call .card h6::after {
   content: "";
   position: absolute;
   width: 100px;
