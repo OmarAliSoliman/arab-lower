@@ -1827,6 +1827,115 @@ img {
   width: 200px;
 }
 
+.free-consult .free-consult-content .department-details-search .free-consult-order-btn {
+  text-align: left;
+}
+.free-consult .free-consult-content .department-details-search .free-consult-order-btn .btn {
+  background-color: #b31633;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.free-consult .free-consult-content .department-details-search .department-details-cards .card {
+  position: relative;
+}
+.free-consult .free-consult-content .department-details-search .department-details-cards .dont-answer {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: #b31633;
+  color: #fff;
+  padding: 0;
+  width: 100px;
+  padding: 5px;
+  z-index: 2;
+}
+.free-consult .free-consult-content .department-details-search .department-details-cards .card-text {
+  padding-right: 10px;
+  border-bottom: 0;
+  position: relative;
+}
+.free-consult .free-consult-content .department-details-search .department-details-cards .card-text::after {
+  content: "";
+  width: 95%;
+  height: 1px;
+  left: 0;
+  margin: auto;
+  background-color: #DDD;
+  position: absolute;
+}
+.free-consult .free-consult-content .department-details-search .department-details-cards .consult-number {
+  font-size: 14px;
+}
+.free-consult .free-consult-content .department-details-search .department-details-cards .card-body .post-info {
+  padding-right: 30px;
+}
+
+.add-free-consult .btn-add-free-consult {
+  text-align: center !important;
+}
+
+.free-consult-details-main-card .details-free-consult {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.free-consult-details-pargraph p {
+  line-height: 28px;
+  font-size: 16px;
+  color: #626262;
+}
+
+.btn-add-consult-order {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.btn-add-consult-order .btn {
+  background-color: #b31633;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.notifaction-page {
+  margin-bottom: 90px;
+}
+.notifaction-page .notification-page-header {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.notifaction-page .notification-page-header::after {
+  right: 48% !important;
+  transform: translate(0, -40%) !important;
+  background-color: #ccad53 !important;
+  width: 55px !important;
+  height: 5px !important;
+}
+.notifaction-page .notification-cards {
+  margin-top: 60px;
+}
+.notifaction-page .notification-cards .card {
+  position: relative;
+  padding-bottom: 80px;
+  padding-top: 40px;
+  border: 0;
+  border-bottom: 1px solid #DDD;
+}
+.notifaction-page .notification-cards .card img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+.notifaction-page .notification-cards .card .card-text {
+  margin-right: 110px;
+  margin-top: 15px;
+  line-height: 28px;
+  font-size: 18px;
+}
+
 footer {
   background-color: #1a355a;
 }
@@ -1982,6 +2091,10 @@ footer .links ul li:last-child::before {
   .post-details .card {
     margin-bottom: 15px;
   }
+
+  .add-free-consult .btn-add-free-consult {
+    text-align: center !important;
+  }
 }
 @media (max-width: 524px) {
   .top-header .company-email {
@@ -2045,6 +2158,10 @@ footer .links ul li:last-child::before {
   footer .links ul li {
     width: 100%;
   }
+
+  .free-consult .department-details-cards .dont-answer {
+    position: unset !important;
+  }
 }
 .services .section-header, .posts .section-header, .consults .section-header, .books-search .section-header {
   font-size: 42px;
@@ -2057,7 +2174,7 @@ footer .links ul li:last-child::before {
   margin-bottom: 30px;
 }
 
-.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after, .online-payment .online-payment-header::after, .legal-posts .legal-posts-content .add-post .card .card-title::after, .join-to-the-team-condition .join-to-the-team-condition-header::after {
+.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after, .online-payment .online-payment-header::after, .legal-posts .legal-posts-content .add-post .card .card-title::after, .join-to-the-team-condition .join-to-the-team-condition-header::after, .notifaction-page .notification-page-header::after {
   content: "";
   position: absolute;
   width: 100px;
