@@ -51,7 +51,7 @@ img {
   border-radius: 50%;
   color: #000;
   margin-right: 5px;
-  border: 1px solid #BAC6D3;
+  border: 1px solid #bac6d3;
 }
 .pagination .active .page-link {
   background-color: #1a355a !important;
@@ -1169,13 +1169,13 @@ img {
 }
 .consult-order-content .consult-order-form .form-group label {
   font-weight: normal !important;
-  color: #1E2436;
+  color: #1e2436;
 }
 .consult-order-content .consult-order-form .form-group .form-control::placeholder {
   color: #888;
 }
 .consult-order-content .consult-order-form .input-group {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   height: calc(1.5em + 0.75rem + 20px);
   border-radius: 10px;
   margin-top: 6px;
@@ -1249,7 +1249,7 @@ img {
   padding: 10px;
   position: relative;
   background-color: transparent;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #ddd;
 }
 .online-payment .online-payment-option-accordion #accordion .card .card-header .btn {
   padding-bottom: 0;
@@ -1379,7 +1379,7 @@ img {
 }
 .legal-posts .legal-posts-content .filter .card {
   background-color: #fff;
-  border: 1px solid #C5C5C5;
+  border: 1px solid #c5c5c5;
   border-radius: 6px;
   padding: 0;
 }
@@ -1398,7 +1398,7 @@ img {
   text-align: right;
   padding: 0;
   border: 0;
-  border-bottom: 1px solid #C5C5C5;
+  border-bottom: 1px solid #c5c5c5;
   position: relative;
 }
 .legal-posts .legal-posts-content .filter #accordion .card .card-header .btn-link {
@@ -1460,7 +1460,7 @@ img {
   text-align: right;
 }
 .legal-posts .legal-posts-content .add-post .card .card-text {
-  color: #C5C5C5;
+  color: #c5c5c5;
   font-size: 16px;
 }
 .legal-posts .legal-posts-content .add-post .card .card-title {
@@ -1495,7 +1495,7 @@ img {
   border-radius: 3px;
 }
 .legal-posts .department-details-search .input-group {
-  border: 1px solid #C5C5C5;
+  border: 1px solid #c5c5c5;
   border-radius: 6px;
   padding: 5px;
 }
@@ -1509,7 +1509,7 @@ img {
   border-radius: 5px;
 }
 .legal-posts .department-details-cards .card {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   position: relative;
   overflow: hidden;
 }
@@ -1594,7 +1594,7 @@ img {
 }
 
 .work-team .work-team-content .work-team-cards .card {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 .work-team .work-team-content .work-team-cards .card .card-body .card-title {
   text-align: center !important;
@@ -1629,7 +1629,8 @@ img {
   padding: 0;
   border: 0;
 }
-.post-details .main-card img, .post-details .main-card i {
+.post-details .main-card img,
+.post-details .main-card i {
   width: 58px;
   height: 58px;
   border-radius: 50%;
@@ -1639,7 +1640,8 @@ img {
 .post-details .main-card span {
   padding-right: 70px;
 }
-.post-details .main-card span p, .post-details .main-card span h6 {
+.post-details .main-card span p,
+.post-details .main-card span h6 {
   margin: 0;
 }
 .post-details .main-card span p {
@@ -1653,7 +1655,7 @@ img {
   margin-top: 5px;
 }
 .post-details .i-card i {
-  color: #C5C5C5;
+  color: #c5c5c5;
   top: 7px;
 }
 .post-details .i-card span {
@@ -1690,7 +1692,7 @@ img {
   right: 0;
 }
 .post-details .another-subjects-cards .card {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   position: relative;
   overflow: hidden;
   border: 0;
@@ -1860,7 +1862,7 @@ img {
   height: 1px;
   left: 0;
   margin: auto;
-  background-color: #DDD;
+  background-color: #ddd;
   position: absolute;
 }
 .free-consult .free-consult-content .department-details-search .department-details-cards .consult-number {
@@ -1920,7 +1922,7 @@ img {
   padding-bottom: 80px;
   padding-top: 40px;
   border: 0;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #ddd;
 }
 .notifaction-page .notification-cards .card img {
   width: 95px;
@@ -1937,7 +1939,7 @@ img {
 }
 
 .free-consult-details-replay .card {
-  background-color: #F9F2F9;
+  background-color: #f9f2f9;
   border: 0;
   padding: 20px;
   border-radius: 6px;
@@ -1958,7 +1960,7 @@ img {
 .free-consult-details-replay .card .card-image .know-him {
   position: absolute;
   top: 3px;
-  background-color: #CCAD53;
+  background-color: #ccad53;
   color: #fff;
   padding: 3px;
   font-size: 14px;
@@ -1968,7 +1970,8 @@ img {
   display: inline-block;
   margin-top: 7px;
 }
-.free-consult-details-replay .card .card-image .info h6, .free-consult-details-replay .card .card-image .info p {
+.free-consult-details-replay .card .card-image .info h6,
+.free-consult-details-replay .card .card-image .info p {
   margin: 0;
 }
 .free-consult-details-replay .card .card-image .info h6 {
@@ -1976,7 +1979,7 @@ img {
 }
 .free-consult-details-replay .card .card-image .info p {
   font-size: 14px;
-  color: #DDD;
+  color: #ddd;
   margin-top: 4px;
 }
 .free-consult-details-replay .card .card-text {
@@ -1984,7 +1987,7 @@ img {
   width: 90%;
 }
 .free-consult-details-replay .card:hover {
-  background-color: #F2F9F9;
+  background-color: #f2f9f9;
 }
 
 .legal-library .legal-library-content .legal-library-cards .card {
@@ -2050,7 +2053,7 @@ img {
 }
 .my-account-consult-details .my-acount-card-info .card {
   background-color: transparent;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   border-radius: 5px;
 }
 .my-account-consult-details .my-acount-card-info .card .card-img {
@@ -2101,7 +2104,8 @@ img {
   text-align: center;
   padding: 30px !important;
 }
-.my-account-consult-details .my-account-price .card p, .my-account-consult-details .my-account-price .card h5 {
+.my-account-consult-details .my-account-price .card p,
+.my-account-consult-details .my-account-price .card h5 {
   margin: 0;
 }
 .my-account-consult-details .my-account-price .card p {
@@ -2207,6 +2211,263 @@ img {
   position: absolute;
   right: 28px;
   top: 15px;
+}
+
+.my-account .my-account-header {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 45px;
+  margin-top: 45px;
+  margin-bottom: 60px;
+  color: #1a355a;
+}
+.my-account .my-account-header::after {
+  right: 48%;
+  bottom: 0;
+  width: 50px !important;
+  height: 6px !important;
+  background-color: #ccad53 !important;
+}
+.my-account .my-account-tabs {
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+}
+.my-account .my-account-tabs .nav-item {
+  padding: 0;
+}
+.my-account .my-account-tabs .nav-item .nav-link {
+  color: #999;
+  padding: 0;
+  padding-bottom: 10px;
+  margin-left: 58px;
+}
+.my-account .my-account-tabs .nav-item .active {
+  background-color: transparent;
+  color: #000;
+  border-bottom: 2px solid #ccad53;
+  border-radius: 0;
+  padding-bottom: 10px;
+}
+.my-account #pills-personal-info {
+  position: relative;
+}
+.my-account #pills-personal-info .personal-img {
+  margin: 50px;
+}
+.my-account #pills-personal-info .personal-img img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+.my-account #pills-personal-info .personal-img .change-pic {
+  display: inline-block;
+  background-color: #b31633;
+  color: #fff;
+  margin-right: 80px;
+  margin-top: 35px;
+}
+.my-account #pills-personal-info .personal-form {
+  margin-top: 30px;
+}
+.my-account #pills-personal-info .personal-form .form-group .form-control {
+  height: 65px;
+}
+.my-account #pills-personal-info .personal-form .change-passowrd a {
+  display: inline-block;
+  color: #b31633;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.my-account #pills-personal-info .personal-form .btn-change-data {
+  text-align: center;
+}
+.my-account #pills-personal-info .personal-form .btn-change-data .btn {
+  background-color: #b31633;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  width: 20%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+.my-account #pills-consult-order .pills-consult-order-par, .my-account #pills-legal-service-order .pills-consult-order-par {
+  margin-top: 40px;
+}
+.my-account #pills-consult-order .pills-consult-order-par p, .my-account #pills-legal-service-order .pills-consult-order-par p {
+  font-size: 16px;
+  color: #626262;
+  line-height: 28px;
+}
+.my-account #pills-consult-order .consult-price .card, .my-account #pills-legal-service-order .consult-price .card {
+  position: relative;
+  box-shadow: none;
+  border: 1px solid #DDD;
+}
+.my-account #pills-consult-order .consult-price .card h5, .my-account #pills-legal-service-order .consult-price .card h5 {
+  font-size: 18px;
+  padding: 9px;
+  padding-top: 20px;
+}
+.my-account #pills-consult-order .consult-price .card .price, .my-account #pills-legal-service-order .consult-price .card .price {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  margin-top: 3px;
+  transform: translate(-20%, -50%);
+  color: #ccad53;
+  font-size: 24px;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page, .my-account #pills-legal-service-order .consult-price .form-contact-page {
+  margin-top: 30px;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page .btn-modal-open, .my-account #pills-legal-service-order .consult-price .form-contact-page .btn-modal-open {
+  width: 100%;
+  background-color: #F2F2F2;
+  border-radius: 6px;
+  height: 56px;
+  margin-top: 30px;
+  text-align: right;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page .modal-header, .my-account #pills-legal-service-order .consult-price .form-contact-page .modal-header {
+  border: 0;
+  position: relative;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page .modal-header p, .my-account #pills-legal-service-order .consult-price .form-contact-page .modal-header p {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page .modal-header .close, .my-account #pills-legal-service-order .consult-price .form-contact-page .modal-header .close {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page .modal-body .card, .my-account #pills-legal-service-order .consult-price .form-contact-page .modal-body .card {
+  position: relative;
+  background-color: #F2F2F2;
+  border: 0;
+  padding: 30px;
+  text-decoration: none;
+  margin-top: 0;
+  display: block;
+  margin-bottom: 10px;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page .modal-body img, .my-account #pills-legal-service-order .consult-price .form-contact-page .modal-body img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page .modal-body .name, .my-account #pills-legal-service-order .consult-price .form-contact-page .modal-body .name {
+  margin-right: 55px;
+  color: #000;
+}
+.my-account #pills-consult-order .consult-price .form-contact-page .modal-body .know-him, .my-account #pills-legal-service-order .consult-price .form-contact-page .modal-body .know-him {
+  color: #ccad53;
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translate(-4%, -50%);
+}
+.my-account #pills-favorite .department-details-search .department-details-cards .card .card-text {
+  border: 0;
+  position: relative;
+}
+.my-account #pills-favorite .department-details-search .department-details-cards .card .card-text::after {
+  content: "";
+  position: absolute;
+  width: 96%;
+  height: 2px;
+  background-color: #DDD;
+  left: 0;
+  bottom: -10px;
+}
+.my-account #pills-favorite .department-details-search .department-details-cards .card .post-info {
+  padding-right: 15px;
+}
+.my-account #pills-favorite .department-details-search .department-details-cards .card .post-info p {
+  margin-bottom: 5px;
+}
+.my-account #pills-legal-team .online-consult-content .online-consult-cards .card .card-link {
+  width: 100%;
+  background-color: #b31633;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.my-account #pills-my-consult .pills-my-account-row .nav-pills .nav-link {
+  color: #000;
+  padding: 20px;
+}
+.my-account #pills-my-consult .pills-my-account-row .nav-pills .active {
+  background-color: #F7F7F7;
+  color: #ccad53;
+  position: relative;
+}
+.my-account #pills-my-consult .pills-my-account-row .nav-pills .active::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+}
+.my-account #pills-my-consult #v-pills-free-consult .legal-posts-content, .my-account #pills-my-consult #v-pills-special-consult .legal-posts-content, .my-account #pills-my-consult #v-pills-online-consult .legal-posts-content {
+  margin-top: 0;
+}
+.my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .dont-answer {
+  background-color: #1a355a;
+}
+.my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .post-info p .voice-call {
+  margin-right: 150px;
+}
+.my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .option {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+.my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .option i {
+  width: 40px;
+  height: 40px;
+  background-color: #ccad53;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.my-account #pills-legal-service .nav-pills {
+  border: 1px solid #C5C5C5;
+  border-radius: 5px;
+}
+.my-account #pills-legal-service .nav-pills .card-header {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 15px;
+}
+.my-account #pills-legal-service .nav-pills .nav-link {
+  color: #000;
+  padding: 15px;
+}
+.my-account #pills-legal-service .nav-pills .active {
+  background-color: #F7F7F7;
+  color: #000;
+  position: relative;
+}
+.my-account #pills-legal-service .nav-pills .active::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  color: #ccad53;
+}
+.my-account #pills-legal-service .tab-content .legal-posts-content {
+  margin-top: 0;
 }
 
 footer {
@@ -2372,6 +2633,28 @@ footer .links ul li:last-child::before {
   .legal-library .pagination {
     padding-right: 0 !important;
   }
+
+  .my-account .my-account-tabs .nav-item .nav-link {
+    margin-left: 61px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  .my-account .my-account-tabs .nav-item .active {
+    background-color: #ccad53;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #v-pills-online-consult .department-details-search .department-details-cards .card .dont-answer {
+    background-color: #1a355a;
+  }
+  #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .post-info p .voice-call {
+    margin-right: 50px !important;
+  }
+  #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .option {
+    position: absolute;
+  }
 }
 @media (max-width: 524px) {
   .top-header .company-email {
@@ -2438,6 +2721,45 @@ footer .links ul li:last-child::before {
   .audio-call .cancel-call {
     width: 80%;
   }
+
+  .my-account .my-account-tabs .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+  .my-account .my-account-tabs .nav-item .nav-link {
+    width: 100%;
+  }
+
+  .my-account #pills-personal-info .personal-img {
+    text-align: center;
+  }
+  .my-account #pills-personal-info .personal-img img {
+    position: unset;
+  }
+  .my-account #pills-personal-info .personal-img .change-pic {
+    display: block;
+    margin-right: 0;
+  }
+  .my-account #pills-personal-info .personal-form .btn-change-data .btn {
+    width: 100%;
+  }
+
+  #v-pills-online-consult {
+    margin-top: 10px;
+  }
+  #v-pills-online-consult .department-details-search .department-details-cards .card .dont-answer {
+    background-color: #1a355a;
+  }
+  #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .post-info p .voice-call {
+    margin-right: 0 !important;
+    display: block;
+  }
+  #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .option {
+    position: unset !important;
+    display: block;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
 }
 @media (max-width: 376px) {
   footer .links ul li {
@@ -2459,7 +2781,7 @@ footer .links ul li:last-child::before {
   margin-bottom: 30px;
 }
 
-.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after, .online-payment .online-payment-header::after, .legal-posts .legal-posts-content .add-post .card .card-title::after, .join-to-the-team-condition .join-to-the-team-condition-header::after, .notifaction-page .notification-page-header::after, .my-account-consult-details .my-acount-card-info .card .card-img .name::after, .audio-call .card h6::after {
+.small-about .small-about-content h5::after, .services .section-header::after, .posts .section-header::after, .posts .card .post-content::before, .posts .card .overlay .overlay-content::before, .consults .section-header::after, .consults .consult-slider .slider-item .card .card-body .card-title::after, .books-search .section-header::after, .about-arab-lower .image-header h5::after, .about-arab-lower .who-us .who-content h6::after, .about-arab-lower .why .why-header h6::after, .online-consult .online-consult-content .online-consult-cards .card .card-body .card-title::after, .consult-order-content .consult-order-content-header::after, .online-payment .online-payment-header::after, .legal-posts .legal-posts-content .add-post .card .card-title::after, .join-to-the-team-condition .join-to-the-team-condition-header::after, .notifaction-page .notification-page-header::after, .my-account-consult-details .my-acount-card-info .card .card-img .name::after, .audio-call .card h6::after, .my-account .my-account-header::after {
   content: "";
   position: absolute;
   width: 100px;
@@ -2468,7 +2790,7 @@ footer .links ul li:last-child::before {
   bottom: 0;
 }
 
-.consults .consult-slider .slick-arrow::before, .services-cards .card .card-link::after, .single-serv-sidebar ul li:hover a::before, .consult-order-content .consult-order-form .custom-file-input:lang(en) ~ .custom-file-label::after, .legal-posts .legal-posts-content .filter #accordion .card .card-header .btn-link::after {
+.consults .consult-slider .slick-arrow::before, .services-cards .card .card-link::after, .single-serv-sidebar ul li:hover a::before, .consult-order-content .consult-order-form .custom-file-input:lang(en) ~ .custom-file-label::after, .legal-posts .legal-posts-content .filter #accordion .card .card-header .btn-link::after, .my-account #pills-my-consult .pills-my-account-row .nav-pills .active::after, .my-account #pills-legal-service .nav-pills .active::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }

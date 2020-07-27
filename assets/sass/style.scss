@@ -40,7 +40,6 @@ img {
   outline: 0 !important;
 }
 
-
 .pagination {
   width: 100%;
   margin: auto;
@@ -60,7 +59,7 @@ img {
       border-radius: 50%;
       color: #000;
       margin-right: 5px;
-      border: 1px solid #BAC6D3;
+      border: 1px solid #bac6d3;
     }
   }
 
@@ -1333,13 +1332,13 @@ img {
       height: 5px !important;
     }
   }
-  .card{
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  .card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     border: 0;
     margin-top: 50px;
     padding: 10px;
     position: relative;
-    .know-about{
+    .know-about {
       position: absolute;
       top: 10px;
       left: 20px;
@@ -1349,82 +1348,81 @@ img {
       padding: 10px;
       border-radius: 5px;
     }
-    .card-title{
-      a{
+    .card-title {
+      a {
         color: #000;
       }
     }
-    .card-image{
-      img{
+    .card-image {
+      img {
         width: 135px;
         height: 135px;
       }
     }
-    .card-text{
+    .card-text {
       display: block;
-      i{
+      i {
         color: $thirdColor;
         margin-left: 4px;
       }
-      span{
+      span {
         color: $mainColor;
       }
     }
   }
-  .consult-order-form{
-    .form-group{
-      label{
+  .consult-order-form {
+    .form-group {
+      label {
         font-weight: normal !important;
-        color: #1E2436;
+        color: #1e2436;
       }
-      .form-control{
-        &::placeholder{
+      .form-control {
+        &::placeholder {
           color: #888;
         }
       }
     }
-    .input-group{
-      background-color: #F2F2F2;
+    .input-group {
+      background-color: #f2f2f2;
       height: calc(1.5em + 0.75rem + 20px);
       border-radius: 10px;
       margin-top: 6px;
       padding: 6px;
-      .custom-file-label{
+      .custom-file-label {
         border: 0;
         background-color: transparent !important;
         height: calc(1.5em + 0.75rem + 20px);
         line-height: 35px;
-        &:focus{
-          outline: 0 ;
+        &:focus {
+          outline: 0;
           box-shadow: 0 !important;
         }
       }
-      .custom-file-input{
+      .custom-file-input {
         border: 0;
         background-color: transparent !important;
-        &:focus{
-          outline: 0 ;
+        &:focus {
+          outline: 0;
           box-shadow: 0 !important;
         }
       }
     }
-    .custom-file-input:lang(en)~.custom-file-label::after{
+    .custom-file-input:lang(en) ~ .custom-file-label::after {
       @extend %initlizeFonAwesomeAfter;
       content: "\f0c1";
       background-color: transparent;
       height: calc(1.5em + 0.75rem + 20px);
       line-height: 35px;
-      &:focus{
-        outline: 0 ;
+      &:focus {
+        outline: 0;
         box-shadow: 0 !important;
       }
-
     }
   }
 }
 // ================================================================================================================================================
 // online payment
-.online-payment{
+.online-payment {
   margin-bottom: 90px;
   .online-payment-header {
     font-size: 30px;
@@ -1444,12 +1442,12 @@ img {
       height: 5px !important;
     }
   }
-  .online-payment-option-accordion{
+  .online-payment-option-accordion {
     background-color: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 25px;
     padding-bottom: 30px;
-    .payment-way{
+    .payment-way {
       margin-bottom: 30px;
     }
     #accordion {
@@ -1462,7 +1460,7 @@ img {
           padding: 10px;
           position: relative;
           background-color: transparent;
-          border-bottom: 1px solid #DDD;
+          border-bottom: 1px solid #ddd;
           .btn {
             padding-bottom: 0;
           }
@@ -1475,13 +1473,13 @@ img {
               left: 10px;
               top: 10px;
             }
-            .visa-img{
-              img{
+            .visa-img {
+              img {
                 top: 18px !important;
               }
-             img:first-child{
-               left: 50px;
-             }
+              img:first-child {
+                left: 50px;
+              }
             }
             label {
               font-size: 16px;
@@ -1550,90 +1548,89 @@ img {
         background: white;
       }
 
-      .btn-submit-payment{
+      .btn-submit-payment {
         background-color: #284974;
         color: #fff;
       }
-
     }
-    .card-visa{
+    .card-visa {
       text-align: center;
-      img{
+      img {
         width: 326px;
         height: 225px;
         margin: auto;
       }
-      .form-info{
+      .form-info {
         margin-top: 20px;
         text-align: right;
       }
     }
   }
 
-  .btn-payment{
+  .btn-payment {
     text-align: left;
-   .btn{
-    border: 0;
-    border-radius: 5px;
-    padding: 0 !important;
-    height: calc(1.5em + 0.75rem + 10px);
-    width: 20%;
-    border-radius: 0;
-    margin-top: 30px;
-    background-color: #b31633;
-    color: #fff;
-   }
+    .btn {
+      border: 0;
+      border-radius: 5px;
+      padding: 0 !important;
+      height: calc(1.5em + 0.75rem + 10px);
+      width: 20%;
+      border-radius: 0;
+      margin-top: 30px;
+      background-color: #b31633;
+      color: #fff;
+    }
   }
 
-  .total-price{
+  .total-price {
     background-color: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 25px;
     height: 160px;
-    h6{
+    h6 {
       margin-top: 20px;
     }
-    h5{
+    h5 {
       color: $thirdColor;
       font-size: 43px;
     }
   }
 }
 // ================================================================================================================================================
-.legal-posts{
-  .legal-posts-content{
+.legal-posts {
+  .legal-posts-content {
     margin-top: 90px;
     margin-bottom: 80px;
-    .filter{
-      .card{
+    .filter {
+      .card {
         background-color: #fff;
-        border: 1px solid #C5C5C5;
+        border: 1px solid #c5c5c5;
         border-radius: 6px;
         padding: 0;
-        .card-header{
+        .card-header {
           background-color: transparent;
           text-align: center;
-          h5{
+          h5 {
             margin: 0;
             font-size: 17px;
           }
         }
-        .card-body{
+        .card-body {
           // padding: 0;
         }
       }
-      #accordion{
-        .card{
+      #accordion {
+        .card {
           border: 0;
-          .card-header{
+          .card-header {
             text-align: right;
             padding: 0;
             border: 0;
-            border-bottom: 1px solid #C5C5C5;
-            position: relative; 
-            .btn-link{
+            border-bottom: 1px solid #c5c5c5;
+            position: relative;
+            .btn-link {
               color: #000;
-              &::after{
+              &::after {
                 @extend %initlizeFonAwesomeAfter;
                 content: "\f0d7";
                 position: absolute;
@@ -1645,17 +1642,17 @@ img {
             }
           }
 
-          .card-body{
-            .form-check{
+          .card-body {
+            .form-check {
               font-size: 14px;
               margin-top: 20px;
             }
           }
 
-          .card-header{
-            .btn-link[aria-expanded="true"]{
+          .card-header {
+            .btn-link[aria-expanded="true"] {
               opacity: 1;
-              &::after{
+              &::after {
                 left: 2%;
                 top: 30%;
                 transform: translate(-2%, -30%);
@@ -1665,19 +1662,19 @@ img {
           }
         }
       }
-      .btn-filter{
+      .btn-filter {
         padding: 20px;
-       .btn{
-        background-color: rgba(179, 22, 51, 0.9);
-        color: #fff;
-        height: 30px;
-        line-height: 1px;
-       }
+        .btn {
+          background-color: rgba(179, 22, 51, 0.9);
+          color: #fff;
+          height: 30px;
+          line-height: 1px;
+        }
       }
     }
-    .add-post{
+    .add-post {
       text-align: left;
-      .btn{
+      .btn {
         background-color: rgba(179, 22, 51, 0.9);
         color: #fff;
         padding: 15px;
@@ -1695,14 +1692,14 @@ img {
           height: 266px;
           border-radius: 0;
         }
-        .card-body{
+        .card-body {
           text-align: right;
         }
-        .card-text{
-          color: #C5C5C5;
+        .card-text {
+          color: #c5c5c5;
           font-size: 16px;
         }
-        .card-title{
+        .card-title {
           position: relative;
           padding-bottom: 20px;
           &::after {
@@ -1712,20 +1709,19 @@ img {
             background-color: $thirdColor !important;
             width: 55px !important;
             height: 5px !important;
-          } 
+          }
         }
-        .number-info{
+        .number-info {
           position: relative;
           width: 100%;
           display: block;
-          .card-link{
+          .card-link {
             font-size: 14px;
             color: #000;
-
           }
-          .number{
+          .number {
             position: absolute;
-            left:0px;
+            left: 0px;
             display: inline-block;
             font-size: 14px;
             color: $mainColor;
@@ -1738,15 +1734,15 @@ img {
       }
     }
   }
-  .department-details-search{
-    .input-group{
-      border: 1px solid #C5C5C5;
+  .department-details-search {
+    .input-group {
+      border: 1px solid #c5c5c5;
       border-radius: 6px;
       padding: 5px;
-      .form-control{
+      .form-control {
         border: 0;
       }
-      .input-group-text{
+      .input-group-text {
         background-color: $thirdColor;
         color: #fff;
         border: 0;
@@ -1754,12 +1750,12 @@ img {
       }
     }
   }
-  .department-details-cards{
-    .card{
-      background-color: #F9F9F9;
+  .department-details-cards {
+    .card {
+      background-color: #f9f9f9;
       position: relative;
       overflow: hidden;
-      .fa-star{
+      .fa-star {
         position: absolute;
         width: 100px;
         height: 100px;
@@ -1773,57 +1769,57 @@ img {
         top: -30px;
         font-size: 30px;
       }
-      .card-text{
+      .card-text {
         position: relative;
         border-bottom: 1px solid $mainColor;
-        i{
+        i {
           position: absolute;
           right: 0;
           color: $mainColor;
           font-size: 20px;
           top: 6px;
         }
-        p{
+        p {
           padding-right: 30px;
           font-size: 18px;
           line-height: 30px;
           max-width: 90%;
           cursor: pointer;
-          a{
+          a {
             color: $mainColor;
             text-decoration: none;
           }
-          &:hover{
-            a{
+          &:hover {
+            a {
               color: $thirdColor;
             }
           }
         }
       }
-      .card-body{
+      .card-body {
         position: relative;
-        img{
+        img {
           width: 58px;
           height: 58px;
           border-radius: 50%;
           position: absolute;
           right: 20px;
         }
-        .post-info{
+        .post-info {
           display: inline-block;
           padding-right: 70px;
-          p{
+          p {
             margin: 0;
-            a{
+            a {
               color: $mainColor;
             }
           }
-          i{
+          i {
             margin-left: 5px;
             color: $thirdColor;
             margin-top: 10px;
           }
-          span{
+          span {
             color: $mainColor;
             font-size: 16px;
           }
@@ -1836,38 +1832,38 @@ img {
 // ================================================================================================================================================
 // start add-legal-post
 
-.add-legal-post{
-  .btn-submit{
+.add-legal-post {
+  .btn-submit {
     text-align: left !important;
-    .btn{
+    .btn {
       padding: 8px !important;
       line-height: 30px;
     }
   }
-  .note{
+  .note {
     padding-top: 40px;
   }
 }
 
 // ================================================================================================================================================
 
-.work-team{
-  .work-team-content{
-    .work-team-cards{
-      .card{
-        background-color: #F5F5F5;
-        .card-body{
-          .card-title{
+.work-team {
+  .work-team-content {
+    .work-team-cards {
+      .card {
+        background-color: #f5f5f5;
+        .card-body {
+          .card-title {
             text-align: center !important;
-            &::after{
+            &::after {
               right: 38% !important;
             }
           }
         }
-        .card-link-parent{
+        .card-link-parent {
           text-align: center;
         }
-        .card-link{
+        .card-link {
           display: inline-block;
           border: 1px solid $mainColor;
           padding: 6px;
@@ -1883,75 +1879,77 @@ img {
   }
 }
 // ================================================================================================================================================
-.post-details{
+.post-details {
   margin-bottom: 60px;
-  .post-details-header{
+  .post-details-header {
     margin: 16px 0 32px 0;
   }
-  .main-card{
+  .main-card {
     position: relative;
     border-radius: 0;
     padding: 0;
     border: 0;
-    img, i{
+    img,
+    i {
       width: 58px;
       height: 58px;
       border-radius: 50%;
       position: absolute;
       right: 0;
     }
-    span{
+    span {
       padding-right: 70px;
-      p,h6{
+      p,
+      h6 {
         margin: 0;
       }
-      p{
+      p {
         font-size: 13px;
         color: #888;
         margin-top: 6px;
       }
-      h6{
+      h6 {
         font-size: 15px;
         color: #626262;
         margin-top: 5px;
       }
     }
   }
-  .i-card{
-    i{
-      color: #C5C5C5;
+  .i-card {
+    i {
+      color: #c5c5c5;
       top: 7px;
     }
-    span{
+    span {
       padding-right: 20px;
     }
   }
-  .post-details-img{
+  .post-details-img {
     height: 412px;
     background-size: cover;
     background-position: center;
     margin-top: 50px;
   }
-  .add-fav-btn{
-    .btn{
+  .add-fav-btn {
+    .btn {
       background-color: $mainColor;
       color: #fff;
       margin: 38px 0 30px 0;
     }
   }
-  .post-details-par{
+  .post-details-par {
     color: #999;
     font-size: 16px;
     line-height: 28px;
   }
-  .anouther-subjects{
+  .anouther-subjects {
     margin-top: 64px;
-    h5{
+    h5 {
       position: relative;
       padding-bottom: 30px;
       margin-bottom: 20px;
-      &::after{
-        content: url('../images/an.png');
+      &::after {
+        content: url("../images/an.png");
         position: absolute;
         bottom: 0;
         right: 0;
@@ -1959,14 +1957,14 @@ img {
     }
   }
   .another-subjects-cards {
-    .card{
-      background-color: #F9F9F9;
+    .card {
+      background-color: #f9f9f9;
       position: relative;
       overflow: hidden;
       border: 0;
       padding: 15px;
       margin-bottom: 20px;
-      .fa-star{
+      .fa-star {
         position: absolute !important;
         width: 100px;
         height: 100px;
@@ -1980,57 +1978,57 @@ img {
         top: -30px !important;
         font-size: 30px;
       }
-      .card-text{
+      .card-text {
         position: relative;
         border-bottom: 1px solid #064066a1;
-        i{
+        i {
           position: absolute;
           right: 0;
           color: $mainColor;
           font-size: 20px;
           top: 6px;
         }
-        p{
+        p {
           padding-right: 30px;
           font-size: 18px;
           line-height: 30px;
           max-width: 90%;
           cursor: pointer;
-          a{
+          a {
             color: $mainColor;
             text-decoration: none;
           }
-          &:hover{
-            a{
+          &:hover {
+            a {
               color: $thirdColor;
             }
           }
         }
       }
-      .card-body{
+      .card-body {
         position: relative;
-        img{
+        img {
           width: 58px;
           height: 58px;
           border-radius: 50%;
           position: absolute;
           right: 20px;
         }
-        .post-info{
+        .post-info {
           display: inline-block;
           padding-right: 70px;
-          p{
+          p {
             margin: 0;
-            a{
+            a {
               color: $mainColor;
             }
           }
-          i{
+          i {
             margin-left: 5px;
             color: $thirdColor;
             margin-top: 10px;
           }
-          span{
+          span {
             color: $mainColor;
             font-size: 16px;
           }
@@ -2040,16 +2038,15 @@ img {
   }
 }
 
-
 // ================================================================================================================================================
-.join-to-the-team-condition{
-  .join-to-the-team-condition-header{
+.join-to-the-team-condition {
+  .join-to-the-team-condition-header {
     text-align: center;
     margin-top: 40px;
     font-size: 30px;
     position: relative;
     padding-bottom: 30px;
-    &::after{
+    &::after {
       @extend %line-after;
       right: 48% !important;
       transform: translate(0, -40%) !important;
@@ -2058,57 +2055,56 @@ img {
       height: 5px !important;
     }
   }
-  .condition-card{
-    .condition-subject{
+  .condition-card {
+    .condition-subject {
       position: relative;
       padding-bottom: 35px;
-      &::after{
-        content: url('../images/an.png');
+      &::after {
+        content: url("../images/an.png");
         position: absolute;
         bottom: 0;
         right: 0;
       }
     }
-    .container{
-      .all-condition-cards{
+    .container {
+      .all-condition-cards {
         background-color: #fff;
         margin-top: 30px;
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
         padding: 30px;
       }
     }
   }
 }
 
-
 // ================================================================================================================================================
-.join-to-the-team-1{
-  .joining-form{
+.join-to-the-team-1 {
+  .joining-form {
     margin-top: 20px;
     background-color: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 40px;
-    .form-group{
-      .form-control{
+    .form-group {
+      .form-control {
         height: 70px;
       }
     }
-    .add-day{
+    .add-day {
       display: inline-block;
       margin-top: 20px;
       margin-bottom: 10px;
-      i{
+      i {
         color: $secondColor;
       }
-      span{
+      span {
         color: $mainColor;
       }
     }
   }
-  .btn-send-order{
+  .btn-send-order {
     text-align: center;
     margin-top: 20px;
-    .btn{
+    .btn {
       background-color: #b31633;
       color: #fff;
       width: 200px;
@@ -2116,24 +2112,23 @@ img {
   }
 }
 
-
 // ================================================================================================================================================
-.free-consult{
-  .free-consult-content{
-    .department-details-search{
-      .free-consult-order-btn{
+.free-consult {
+  .free-consult-content {
+    .department-details-search {
+      .free-consult-order-btn {
         text-align: left;
-        .btn{
+        .btn {
           background-color: #b31633;
           color: #fff;
           margin-bottom: 20px;
         }
       }
-      .department-details-cards{
-        .card{
+      .department-details-cards {
+        .card {
           position: relative;
         }
-        .dont-answer{
+        .dont-answer {
           position: absolute;
           top: 10px;
           left: 20px;
@@ -2144,25 +2139,25 @@ img {
           padding: 5px;
           z-index: 2;
         }
-        .card-text{
+        .card-text {
           padding-right: 10px;
           border-bottom: 0;
           position: relative;
-          &::after{
+          &::after {
             content: "";
             width: 95%;
             height: 1px;
             left: 0;
             margin: auto;
-            background-color: #DDD;
+            background-color: #ddd;
             position: absolute;
           }
         }
-        .consult-number{
+        .consult-number {
           font-size: 14px;
         }
-        .card-body{
-          .post-info{
+        .card-body {
+          .post-info {
             padding-right: 30px;
           }
         }
@@ -2171,51 +2166,48 @@ img {
   }
 }
 
-
 // ================================================================================================================================================
-.add-free-consult{
-  .btn-add-free-consult{
+.add-free-consult {
+  .btn-add-free-consult {
     text-align: center !important;
   }
 }
 
-
 // ================================================================================================================================================
-.free-consult-details-main-card{
-  .details-free-consult{
+.free-consult-details-main-card {
+  .details-free-consult {
     margin-top: 20px;
     margin-bottom: 0;
   }
 }
-.free-consult-details-pargraph{
-  p{
+.free-consult-details-pargraph {
+  p {
     line-height: 28px;
     font-size: 16px;
     color: #626262;
   }
 }
 
-.btn-add-consult-order{
+.btn-add-consult-order {
   text-align: center;
   margin-bottom: 40px;
-  .btn{
+  .btn {
     background-color: #b31633;
     color: #fff;
     margin-top: 20px;
   }
 }
 
-
 // ================================================================================================================================================
-.notifaction-page{
+.notifaction-page {
   margin-bottom: 90px;
-  .notification-page-header{
+  .notification-page-header {
     text-align: center;
     margin-top: 40px;
     font-size: 30px;
     position: relative;
     padding-bottom: 30px;
-    &::after{
+    &::after {
       @extend %line-after;
       right: 48% !important;
       transform: translate(0, -40%) !important;
@@ -2224,22 +2216,22 @@ img {
       height: 5px !important;
     }
   }
-  .notification-cards{
+  .notification-cards {
     margin-top: 60px;
-    .card{
+    .card {
       position: relative;
       padding-bottom: 80px;
       padding-top: 40px;
       border: 0;
-      border-bottom: 1px solid #DDD;
-      img{
+      border-bottom: 1px solid #ddd;
+      img {
         width: 95px;
         height: 95px;
         border-radius: 50%;
         position: absolute;
         right: 0;
       }
-      .card-text{
+      .card-text {
         margin-right: 110px;
         margin-top: 15px;
         line-height: 28px;
@@ -2250,106 +2242,107 @@ img {
 }
 
 // ================================================================================================================================================
-.free-consult-details-replay{
-  .card{
-    background-color: #F9F2F9;
+.free-consult-details-replay {
+  .card {
+    background-color: #f9f2f9;
     border: 0;
     padding: 20px;
     border-radius: 6px;
     margin-bottom: 20px;
-    transition: all .5s;
-    .card-image{
+    transition: all 0.5s;
+    .card-image {
       position: relative;
       padding-right: 60px;
-      img{
+      img {
         width: 53px;
         height: 53px;
         border-radius: 50%;
         position: absolute;
         right: 0;
       }
-      .know-him{
+      .know-him {
         position: absolute;
         top: 3px;
-        background-color: #CCAD53;
+        background-color: #ccad53;
         color: #fff;
         padding: 3px;
         font-size: 14px;
         margin-right: 10px;
       }
-      .info{
+      .info {
         display: inline-block;
         margin-top: 7px;
-        h6, p{
+        h6,
+        p {
           margin: 0;
         }
-        h6{
+        h6 {
           font-size: 16px;
         }
-        p{
+        p {
           font-size: 14px;
-          color: #DDD;
+          color: #ddd;
           margin-top: 4px;
         }
       }
     }
-    .card-text{
+    .card-text {
       margin-top: 20px;
       width: 90%;
     }
-    &:hover{
-      background-color: #F2F9F9;
+    &:hover {
+      background-color: #f2f9f9;
     }
   }
 }
 // ================================================================================================================================================
-.legal-library{
-  .legal-library-content{
-    .legal-library-cards{
-      .card{
+.legal-library {
+  .legal-library-content {
+    .legal-library-cards {
+      .card {
         padding: 10px;
         border-radius: 0;
         margin-bottom: 20px;
-        .card-img{
+        .card-img {
           position: relative !important;
           height: 255px;
           background-size: cover;
           background-position: center;
           margin-bottom: 10px;
-          &::after{
+          &::after {
             content: "";
             position: absolute;
             width: 100%;
             height: 100%;
             top: 0;
             left: 0;
-            background-color: rgba(235, 235, 235, .4) ;
+            background-color: rgba(235, 235, 235, 0.4);
           }
         }
-        .card-body{
+        .card-body {
           padding: 0;
-          .card-title{
+          .card-title {
             font-size: 18px;
-            a{
+            a {
               color: #000;
             }
           }
-          .card-text{
+          .card-text {
             margin: 0;
             margin-bottom: 5px;
-            i{
+            i {
               color: $thirdColor;
             }
-            span{
+            span {
               color: $mainColor;
             }
           }
-          .card-link{
+          .card-link {
             text-align: left;
             margin-left: 10px;
             font-size: 14px;
             margin-bottom: 10px;
-            a{
+            a {
               color: $thirdColor;
             }
           }
@@ -2357,40 +2350,40 @@ img {
       }
     }
   }
-  .pagination{
+  .pagination {
     padding-right: 400px;
   }
 }
 // ================================================================================================================================================
-.my-account-consult-details{
-  .my-account-consult-details-content{
+.my-account-consult-details {
+  .my-account-consult-details-content {
     margin-top: 30px !important;
   }
-  .my-account-consult-details-par{
-    p{
+  .my-account-consult-details-par {
+    p {
       font-size: 16px;
       color: #666;
       line-height: 30px;
     }
   }
-  .my-acount-card-info{
-    .card{
+  .my-acount-card-info {
+    .card {
       background-color: transparent;
-      border: 1px solid #DDD;
+      border: 1px solid #ddd;
       border-radius: 5px;
-      .card-img{
+      .card-img {
         text-align: center;
-        img{
+        img {
           width: 95px;
           height: 95px;
           border-radius: 50%;
           margin: auto;
         }
-        .name{
+        .name {
           margin-top: 10px;
           position: relative;
           padding-bottom: 30px;
-          &::after{
+          &::after {
             @extend %line-after;
             right: 40%;
             bottom: 0;
@@ -2400,25 +2393,25 @@ img {
           }
         }
       }
-      .card-body{
+      .card-body {
         position: relative;
         padding: 40px;
-        .card-text{
-          i{
+        .card-text {
+          i {
             position: absolute;
             right: 17px;
             margin-top: 5px;
           }
-          span{
+          span {
             color: #ddd;
             font-size: 16px !important;
           }
-          p{
+          p {
             font-size: 16px;
             color: $mainColor;
             margin-right: 4px;
             margin-top: 2px;
-            a{
+            a {
               color: $mainColor;
               text-decoration: none;
             }
@@ -2427,36 +2420,37 @@ img {
       }
     }
   }
-  .my-account-price{
-    .card{
+  .my-account-price {
+    .card {
       text-align: center;
       padding: 30px !important;
-      p, h5{
+      p,
+      h5 {
         margin: 0;
       }
-      p{
+      p {
         font-size: 18px;
       }
-      h5{
+      h5 {
         font-size: 43px;
         color: $thirdColor;
       }
     }
   }
-  .my-acount-new-appointemtn{
+  .my-acount-new-appointemtn {
     text-align: center;
-    .card{
+    .card {
       padding: 20px;
     }
-    h6{
-      font-size: 18px;;
+    h6 {
+      font-size: 18px;
     }
-    a{
+    a {
       font-size: 16px;
       color: $mainColor;
       text-decoration: none;
     }
-    .appointment-accept{
+    .appointment-accept {
       background-color: #b31633;
       color: #fff;
       width: 80%;
@@ -2466,8 +2460,8 @@ img {
       text-decoration: none;
     }
   }
-  .new-appointment-order{
-    .btn{
+  .new-appointment-order {
+    .btn {
       width: 100%;
       background-color: #b31633;
       color: #fff;
@@ -2479,20 +2473,20 @@ img {
 }
 
 // ================================================================================================================================================
-.audio-call{
+.audio-call {
   margin-bottom: 100px;
-  .card{
+  .card {
     background-color: $mainColor;
     text-align: center;
     border-radius: 5px !important;
     padding-top: 38px;
     margin-top: 15px;
-    h6{
+    h6 {
       color: #fff;
       font-size: 24px;
       position: relative;
       padding-bottom: 20px;
-      &::after{
+      &::after {
         @extend %line-after;
         right: 48%;
         bottom: 0;
@@ -2502,22 +2496,22 @@ img {
       }
     }
   }
-  .audio-call-pic{
+  .audio-call-pic {
     margin-top: 35px;
-    img{
+    img {
       width: 155px;
       height: 155px;
-      border-radius: 50%;;
+      border-radius: 50%;
       margin: auto;
     }
-    .first{
+    .first {
       margin-right: 100px;
     }
-    .second{
+    .second {
       margin-left: 150px;
     }
   }
-  .cancel-call{
+  .cancel-call {
     background-color: #b31633;
     color: #fff;
     padding: 20px;
@@ -2531,15 +2525,15 @@ img {
   }
 }
 // ================================================================================================================================================
-.video-call{
-  .video-call-pic{
-    .card-image-call{
+.video-call {
+  .video-call-pic {
+    .card-image-call {
       height: 295px;
       background-size: cover;
       background-position: center;
       margin-bottom: 20px;
       position: relative;
-      .img-video-header{
+      .img-video-header {
         width: 63px;
         height: 63px;
         position: absolute;
@@ -2550,11 +2544,327 @@ img {
   }
 }
 // ================================================================================================================================================
-
+.my-account {
+  .my-account-header {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 45px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    color: $mainColor;
+    &::after {
+      @extend %line-after;
+      right: 48%;
+      bottom: 0;
+      width: 50px !important;
+      height: 6px !important;
+      background-color: $thirdColor !important;
+    }
+  }
+  .my-account-tabs {
+    border-bottom: 1px solid #ddd;
+    // padding-bottom: 10px;
+    padding: 0;
+    .nav-item {
+      padding: 0;
+      .nav-link {
+        color: #999;
+        padding: 0;
+        padding-bottom: 10px;
+        margin-left: 58px;
+      }
+      .active {
+        background-color: transparent;
+        color: #000;
+        border-bottom: 2px solid $thirdColor;
+        border-radius: 0;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  #pills-personal-info {
+    position: relative;
+    .personal-img {
+      margin: 50px;
+      img {
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        position: absolute;
+        right: 0;
+      }
+      .change-pic {
+        display: inline-block;
+        background-color: #b31633;
+        color: #fff;
+        margin-right: 80px;
+        margin-top: 35px;
+      }
+    }
+    .personal-form {
+      margin-top: 30px;
+      .form-group {
+        .form-control {
+          height: 65px;
+        }
+      }
+      .change-passowrd {
+        a {
+          display: inline-block;
+          color: #b31633;
+          font-size: 16px;
+          margin-top: 20px;
+        }
+      }
+      .btn-change-data {
+        text-align: center;
+        .btn {
+          background-color: #b31633;
+          color: #fff;
+          padding: 20px;
+          border-radius: 6px;
+          text-decoration: none;
+          width: 20%;
+          padding: 10px;
+          margin: auto;
+          margin-top: 40px;
+          margin-bottom: 45px;
+        }
+      }
+    }
+  }
+  // ===================
+  #pills-consult-order, #pills-legal-service-order {
+    .pills-consult-order-par {
+      margin-top: 40px;
+      p {
+        font-size: 16px;
+        color: #626262;
+        line-height: 28px;
+      }
+    }
+    .consult-price{
+      .card{
+        position: relative;
+        box-shadow: none;
+        border: 1px solid #DDD;
+        h5{
+          font-size: 18px;
+          padding: 9px;
+          padding-top: 20px;
+        }
+        .price{
+          position: absolute;
+          left: 20px;
+          top: 50%;
+          margin-top:3px;
+          transform: translate(-20%, -50%);
+          color: $thirdColor;
+          font-size: 24px;
+        }
+      }
+      .form-contact-page{
+        margin-top: 30px;
+        .btn-modal-open{
+          width: 100%;
+          background-color: #F2F2F2;
+          border-radius: 6px;
+          height: 56px;
+          margin-top: 30px;
+          text-align: right;
+        }
+        .modal-header{
+          border: 0;
+          position: relative;
+          p{
+            width: 100%;
+            text-align: center;
+            margin-top:20px;
+            margin-bottom: 0;
+          }
+          .close{
+            position: absolute;
+            right: 0;
+            top: 10px;
+          }
+        }
+        .modal-body{
+          .card{
+            position: relative;
+            background-color: #F2F2F2;
+            border: 0;
+            padding: 30px;
+            text-decoration: none;
+            margin-top: 0;
+            display: block;
+            margin-bottom: 10px;
+          }
+          img{
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+          }
+          .name{
+            margin-right: 55px;
+            color: #000;
+          }
+          .know-him{
+            color: $thirdColor;
+            position: absolute;
+            left: 4%;
+            top: 50%;
+            transform: translate(-4%, -50%);
+          }
+        }
+      }
+    }
+  }
+  // =================
+  #pills-favorite{
+    .department-details-search{
+      .department-details-cards{
+        .card{
+          .card-text{
+            border: 0;
+            position: relative;
+            &::after{
+              content: "";
+              position: absolute;
+              width: 96%;
+              height: 2px;
+              background-color: #DDD;
+              left: 0;
+              bottom: -10px;
+            }
+          }
+          .post-info{
+            padding-right: 15px;
+            p{
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // =================
+  #pills-legal-team{
+    .online-consult-content{
+      .online-consult-cards{
+        .card{
+          .card-link{
+            width: 100%;
+            background-color: #b31633;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+  // =================
+  #pills-my-consult{
+    .pills-my-account-row{
+      .nav-pills{
+        .nav-link{
+          color: #000;
+          padding: 20px;
+        }
+        .active{
+          background-color: #F7F7F7;
+          color: $thirdColor;
+          position: relative;
+          &::after{
+            @extend %initlizeFonAwesomeAfter;
+            content: "\f053";
+            position: absolute;
+            left: 10px;
+          }
+        }
+      }
+    }
+    #v-pills-free-consult, #v-pills-special-consult, #v-pills-online-consult{
+      .legal-posts-content{
+        margin-top: 0;
+      }
+    }
+    #v-pills-online-consult{
+      .department-details-search{
+        .department-details-cards{
+          .card{
+            .dont-answer{
+              background-color: $mainColor;
+            }
+            .card-body{
+              .post-info{
+                p{
+                  .voice-call{
+                    margin-right: 150px;
+                  }
+                }
+              }
+              .option{
+                position: absolute;
+                left: 20px;
+                bottom: 10px;
+                i{
+                  width: 40px;
+                  height: 40px;
+                  background-color: $thirdColor;
+                  color: #fff;
+                  border-radius: 50%;
+                  text-align: center;
+                  line-height: 40px;
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #pills-legal-service{
+    .nav-pills{
+      border: 1px solid #C5C5C5;
+      border-radius: 5px;
+      .card-header{
+        background-color: transparent;
+        font-size: 18px;
+        padding: 15px;
+      }
+      .nav-link{
+        color: #000;
+        padding: 15px;
+      }
+      .active{
+        background-color: #F7F7F7;
+        color: #000;
+        position: relative;
+        &::after{
+          @extend %initlizeFonAwesomeAfter;
+          content: "\f053";
+          position: absolute;
+          left: 10px;
+          color: $thirdColor;
+        }
+      }
+    }
+    .tab-content{
+      .legal-posts-content{
+        margin-top: 0;
+      }
+    }
+  }
+}
 // ================================================================================================================================================
 
 // ================================================================================================================================================
-
 
 // ================================================================================================================================================
 
@@ -2636,7 +2946,7 @@ footer {
 }
 
 @media (max-width: 800px) {
-  .pagination{
+  .pagination {
     padding-right: 0;
   }
   .middle-header {
@@ -2729,24 +3039,62 @@ footer {
       }
     }
   }
-  .add-legal-post{
-    .btn-submit{
+  .add-legal-post {
+    .btn-submit {
       text-align: right !important;
     }
   }
-  .post-details{
-    .card{
+  .post-details {
+    .card {
       margin-bottom: 15px;
     }
   }
-  .add-free-consult{
-    .btn-add-free-consult{
+  .add-free-consult {
+    .btn-add-free-consult {
       text-align: center !important;
     }
   }
-  .legal-library{
-    .pagination{
+  .legal-library {
+    .pagination {
       padding-right: 0 !important;
+    }
+  }
+  .my-account .my-account-tabs {
+    .nav-item {
+      .nav-link {
+        margin-left: 61px;
+        margin-top: 15px;
+        padding: 10px;
+      }
+      .active {
+        background-color: $thirdColor;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+  #v-pills-online-consult{
+    .department-details-search{
+      .department-details-cards{
+        .card{
+          .dont-answer{
+            background-color: $mainColor;
+          }
+          .card-body{
+            .post-info{
+              p{
+                .voice-call{
+                  margin-right: 50px !important;
+                }
+              }
+            }
+            .option{
+              position: absolute;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -2837,15 +3185,73 @@ footer {
       }
     }
   }
-  .audio-call{
-    .audio-call-pic{
-      img{
+  .audio-call {
+    .audio-call-pic {
+      img {
         margin: 0 !important;
         margin-bottom: 20px !important;
       }
     }
-    .cancel-call{
+    .cancel-call {
       width: 80%;
+    }
+  }
+  .my-account .my-account-tabs {
+    .nav-item {
+      width: 100%;
+      text-align: center;
+      .nav-link {
+        width: 100%;
+      }
+    }
+  }
+  .my-account {
+    #pills-personal-info {
+      .personal-img {
+        text-align: center;
+        img {
+          position: unset;
+        }
+        .change-pic {
+          display: block;
+          margin-right: 0;
+        }
+      }
+      .personal-form {
+        .btn-change-data {
+          .btn {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  #v-pills-online-consult{
+    margin-top: 10px;
+    .department-details-search{
+      .department-details-cards{
+        .card{
+          .dont-answer{
+            background-color: $mainColor;
+          }
+          .card-body{
+            .post-info{
+              p{
+                .voice-call{
+                  margin-right: 0 !important;
+                  display: block;
+                }
+              }
+            }
+            .option{
+              position: unset !important;
+              display: block;
+              margin-top: 30px;
+              margin-right: 30px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -2860,9 +3266,9 @@ footer {
       }
     }
   }
-  .free-consult{
-    .department-details-cards{
-      .dont-answer{
+  .free-consult {
+    .department-details-cards {
+      .dont-answer {
         position: unset !important;
       }
     }
