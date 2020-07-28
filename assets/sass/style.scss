@@ -2635,7 +2635,8 @@ img {
     }
   }
   // ===================
-  #pills-consult-order, #pills-legal-service-order {
+  #pills-consult-order,
+  #pills-legal-service-order {
     .pills-consult-order-par {
       margin-top: 40px;
       p {
@@ -2644,55 +2645,55 @@ img {
         line-height: 28px;
       }
     }
-    .consult-price{
-      .card{
+    .consult-price {
+      .card {
         position: relative;
         box-shadow: none;
-        border: 1px solid #DDD;
-        h5{
+        border: 1px solid #ddd;
+        h5 {
           font-size: 18px;
           padding: 9px;
           padding-top: 20px;
         }
-        .price{
+        .price {
           position: absolute;
           left: 20px;
           top: 50%;
-          margin-top:3px;
+          margin-top: 3px;
           transform: translate(-20%, -50%);
           color: $thirdColor;
           font-size: 24px;
         }
       }
-      .form-contact-page{
+      .form-contact-page {
         margin-top: 30px;
-        .btn-modal-open{
+        .btn-modal-open {
           width: 100%;
-          background-color: #F2F2F2;
+          background-color: #f2f2f2;
           border-radius: 6px;
           height: 56px;
           margin-top: 30px;
           text-align: right;
         }
-        .modal-header{
+        .modal-header {
           border: 0;
           position: relative;
-          p{
+          p {
             width: 100%;
             text-align: center;
-            margin-top:20px;
+            margin-top: 20px;
             margin-bottom: 0;
           }
-          .close{
+          .close {
             position: absolute;
             right: 0;
             top: 10px;
           }
         }
-        .modal-body{
-          .card{
+        .modal-body {
+          .card {
             position: relative;
-            background-color: #F2F2F2;
+            background-color: #f2f2f2;
             border: 0;
             padding: 30px;
             text-decoration: none;
@@ -2700,7 +2701,7 @@ img {
             display: block;
             margin-bottom: 10px;
           }
-          img{
+          img {
             width: 65px;
             height: 65px;
             border-radius: 50%;
@@ -2708,11 +2709,11 @@ img {
             right: 10px;
             top: 10px;
           }
-          .name{
+          .name {
             margin-right: 55px;
             color: #000;
           }
-          .know-him{
+          .know-him {
             color: $thirdColor;
             position: absolute;
             left: 4%;
@@ -2724,26 +2725,26 @@ img {
     }
   }
   // =================
-  #pills-favorite{
-    .department-details-search{
-      .department-details-cards{
-        .card{
-          .card-text{
+  #pills-favorite {
+    .department-details-search {
+      .department-details-cards {
+        .card {
+          .card-text {
             border: 0;
             position: relative;
-            &::after{
+            &::after {
               content: "";
               position: absolute;
               width: 96%;
               height: 2px;
-              background-color: #DDD;
+              background-color: #ddd;
               left: 0;
               bottom: -10px;
             }
           }
-          .post-info{
+          .post-info {
             padding-right: 15px;
-            p{
+            p {
               margin-bottom: 5px;
             }
           }
@@ -2752,11 +2753,11 @@ img {
     }
   }
   // =================
-  #pills-legal-team{
-    .online-consult-content{
-      .online-consult-cards{
-        .card{
-          .card-link{
+  #pills-legal-team {
+    .online-consult-content {
+      .online-consult-cards {
+        .card {
+          .card-link {
             width: 100%;
             background-color: #b31633;
             color: #fff;
@@ -2768,18 +2769,18 @@ img {
     }
   }
   // =================
-  #pills-my-consult{
-    .pills-my-account-row{
-      .nav-pills{
-        .nav-link{
+  #pills-my-consult {
+    .pills-my-account-row {
+      .nav-pills {
+        .nav-link {
           color: #000;
           padding: 20px;
         }
-        .active{
-          background-color: #F7F7F7;
+        .active {
+          background-color: #f7f7f7;
           color: $thirdColor;
           position: relative;
-          &::after{
+          &::after {
             @extend %initlizeFonAwesomeAfter;
             content: "\f053";
             position: absolute;
@@ -2788,31 +2789,33 @@ img {
         }
       }
     }
-    #v-pills-free-consult, #v-pills-special-consult, #v-pills-online-consult{
-      .legal-posts-content{
+    #v-pills-free-consult,
+    #v-pills-special-consult,
+    #v-pills-online-consult {
+      .legal-posts-content {
         margin-top: 0;
       }
     }
-    #v-pills-online-consult{
-      .department-details-search{
-        .department-details-cards{
-          .card{
-            .dont-answer{
+    #v-pills-online-consult {
+      .department-details-search {
+        .department-details-cards {
+          .card {
+            .dont-answer {
               background-color: $mainColor;
             }
-            .card-body{
-              .post-info{
-                p{
-                  .voice-call{
+            .card-body {
+              .post-info {
+                p {
+                  .voice-call {
                     margin-right: 150px;
                   }
                 }
               }
-              .option{
+              .option {
                 position: absolute;
                 left: 20px;
                 bottom: 10px;
-                i{
+                i {
                   width: 40px;
                   height: 40px;
                   background-color: $thirdColor;
@@ -2829,24 +2832,24 @@ img {
       }
     }
   }
-  #pills-legal-service{
-    .nav-pills{
-      border: 1px solid #C5C5C5;
+  #pills-legal-service {
+    .nav-pills {
+      border: 1px solid #c5c5c5;
       border-radius: 5px;
-      .card-header{
+      .card-header {
         background-color: transparent;
         font-size: 18px;
         padding: 15px;
       }
-      .nav-link{
+      .nav-link {
         color: #000;
         padding: 15px;
       }
-      .active{
-        background-color: #F7F7F7;
+      .active {
+        background-color: #f7f7f7;
         color: #000;
         position: relative;
-        &::after{
+        &::after {
           @extend %initlizeFonAwesomeAfter;
           content: "\f053";
           position: absolute;
@@ -2855,17 +2858,177 @@ img {
         }
       }
     }
-    .tab-content{
-      .legal-posts-content{
+    .tab-content {
+      .legal-posts-content {
         margin-top: 0;
       }
     }
   }
 }
 // ================================================================================================================================================
+.ordanry-lawer-page {
+  .ordanry-lawer-page-tabs {
+    padding-right: 400px;
+  }
+  .ordanry-lawer {
+    .add-anouther-specilist {
+      display: inline-block;
+      margin-top: 60px;
+      color: $mainColor;
+      i {
+        color: #b31633;
+      }
+    }
+    .input-group {
+      background-color: #f2f2f2;
+      height: calc(1.5em + 0.75rem + 30px);
+      border-radius: 10px;
+      margin-top: 6px;
+      padding: 6px;
+      .custom-file-label {
+        border: 0;
+        background-color: transparent !important;
+        height: calc(1.5em + 0.75rem + 30px);
+        line-height: 45px;
+        &:focus {
+          outline: 0;
+          box-shadow: 0 !important;
+        }
+      }
+      .custom-file-input {
+        border: 0;
+        background-color: transparent !important;
+        &:focus {
+          outline: 0;
+          box-shadow: 0 !important;
+        }
+      }
+    }
+    .custom-file-input:lang(en) ~ .custom-file-label::after {
+      @extend %initlizeFonAwesomeAfter;
+      content: "\f0c1";
+      background-color: transparent;
+      height: calc(1.5em + 0.75rem + 30px);
+      line-height: 45px;
+      color: #b31633;
+      &:focus {
+        outline: 0;
+        box-shadow: 0 !important;
+      }
+    }
+    .seprate-title {
+      margin-top: 20px;
+      position: relative;
+      padding-bottom: 30px;
+      &::after {
+        position: absolute;
+        content: url("../images/an-line.png");
+        // height: 20px;
+        bottom: 0;
+        right: 0;
+      }
+    }
+    .add-anouther-certifcate {
+      margin-top: 0;
+    }
+  }
+  .ordanry-lawer-2 {
+    .department-details-search {
+      .department-details-cards {
+        .card {
+          .card-text {
+            border-bottom: 0;
+            &::after {
+              position: absolute;
+              width: 80% !important;
+              content: "";
+              height: 2px;
+              background-color: #ddd;
+              right: 30px;
+            }
+          }
+          .post-info {
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
 
 // ================================================================================================================================================
+.team-lower {
+  .my-account-tabs {
+    .nav-item {
+      .nav-link {
+        margin-left: 45px;
+      }
+    }
+  }
+  #pills-my-consult{
+    .dont-answer {
+      background-color: #fff !important;
+      color: #000 !important;
+      border: 1px solid #b31633;
+    }
+    .consult-replay-btn {
+      background-color: #b31633;
+      color: #fff;
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      z-index: 2;
+    }
+    .accept-done {
+      background-color: $mainColor !important;
+      color: #fff !important;
+      border: 1px solid $mainColor;
+    }
+  }
+  
+  .team-lower-tab-2 {
+    .card-text {
+      &::after {
+        width: 80% !important;
+        right: 30px;
+      }
+    }
+  }
 
+  #pills-consult-order {
+    .nav-pills {
+      border: 1px solid #c5c5c5;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      .card-header {
+        background-color: transparent;
+        font-size: 18px;
+        padding: 15px;
+      }
+      .nav-link {
+        color: #000;
+        padding: 15px;
+      }
+      .active {
+        background-color: #f7f7f7;
+        color: #000;
+        position: relative;
+        &::after {
+          @extend %initlizeFonAwesomeAfter;
+          content: "\f053";
+          position: absolute;
+          left: 10px;
+          color: $thirdColor;
+        }
+      }
+    }
+    .tab-content {
+      .legal-posts-content {
+        margin-top: 0;
+      }
+    }
+  }
+}
 // ================================================================================================================================================
 
 // start footer
@@ -3074,27 +3237,32 @@ footer {
       }
     }
   }
-  #v-pills-online-consult{
-    .department-details-search{
-      .department-details-cards{
-        .card{
-          .dont-answer{
+  #v-pills-online-consult {
+    .department-details-search {
+      .department-details-cards {
+        .card {
+          .dont-answer {
             background-color: $mainColor;
           }
-          .card-body{
-            .post-info{
-              p{
-                .voice-call{
+          .card-body {
+            .post-info {
+              p {
+                .voice-call {
                   margin-right: 50px !important;
                 }
               }
             }
-            .option{
+            .option {
               position: absolute;
             }
           }
         }
       }
+    }
+  }
+  .ordanry-lawer-page {
+    .ordanry-lawer-page-tabs {
+      padding-right: 0;
     }
   }
 }
@@ -3226,24 +3394,24 @@ footer {
       }
     }
   }
-  #v-pills-online-consult{
+  #v-pills-online-consult {
     margin-top: 10px;
-    .department-details-search{
-      .department-details-cards{
-        .card{
-          .dont-answer{
+    .department-details-search {
+      .department-details-cards {
+        .card {
+          .dont-answer {
             background-color: $mainColor;
           }
-          .card-body{
-            .post-info{
-              p{
-                .voice-call{
+          .card-body {
+            .post-info {
+              p {
+                .voice-call {
                   margin-right: 0 !important;
                   display: block;
                 }
               }
             }
-            .option{
+            .option {
               position: unset !important;
               display: block;
               margin-top: 30px;
@@ -3252,6 +3420,21 @@ footer {
           }
         }
       }
+    }
+  }
+  .team-lower {
+    .consult-replay-btn {
+      // position: unset;
+      // bottom: 88%;
+      position: unset;
+      margin-top: 10px;
+    }
+    .free-consult
+      .free-consult-content
+      .department-details-search
+      .department-details-cards
+      .card-text {
+      margin-top: 20px;
     }
   }
 }
