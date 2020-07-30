@@ -84,5 +84,40 @@ $(document).ready(function () {
     });
   }
 
+  if($('.legal-post-slider').length){
+    $('.legal-post-slider-content').slick({
+      vertical:true,
+      verticalSwiping: true,
+      arrows: true,
+      slidesToShow: 3,
+      loop: false, 
+      autoplay: false,
+      infinite: false
+    })
+  }
+
+  if($('.free-post-slider').length){
+    $('.free-post-slider-content').slick({
+      vertical:true,
+      verticalSwiping: true,
+      arrows: true,
+      slidesToShow: 2,
+      loop: false, 
+      autoplay: false,
+      infinite: false
+    })
+  }
+
+  if($('.book-slider').length){
+    $('.book-slider-content').slick({
+      vertical:true,
+      verticalSwiping: true,
+      arrows: true,
+      slidesToShow: 2,
+      loop: false, 
+      autoplay: false,
+      infinite: false
+    })
+  }
 
 });

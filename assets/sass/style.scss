@@ -2965,7 +2965,7 @@ img {
       }
     }
   }
-  #pills-my-consult{
+  #pills-my-consult {
     .dont-answer {
       background-color: #fff !important;
       color: #000 !important;
@@ -2985,7 +2985,7 @@ img {
       border: 1px solid $mainColor;
     }
   }
-  
+
   .team-lower-tab-2 {
     .card-text {
       &::after {
@@ -3028,7 +3028,762 @@ img {
       }
     }
   }
+
+  #pills-legal-service-order {
+    .header {
+      position: relative;
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+      &::after {
+        content: url("../images/an.png");
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+    .card-appointment {
+      background-color: #f8f8f8;
+      padding: 20px;
+      border: 0;
+      .card-title {
+        border-bottom: 1px solid #c5c5c5;
+        font-size: 17px;
+        color: #1e2436;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+      }
+      ul {
+        li {
+          color: $mainColor;
+          margin-bottom: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+    .card-add-new-appointment {
+      background-color: #fff;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      padding: 30px;
+      .form-group {
+        .form-control {
+          height: 55px;
+        }
+      }
+      .card-link {
+        color: #b31633;
+      }
+    }
+    .btn-submit-appointment {
+      text-align: center;
+      .btn {
+        color: #fff;
+        background-color: #b31633;
+        margin-bottom: 70px;
+        margin-top: 40px;
+        padding: 10px;
+        width: 180px;
+        text-align: center;
+      }
+    }
+  }
+  #pills-legal-team {
+    .card-total-charge {
+      padding: 30px;
+      // padding-top: 18px;
+      // padding-bottom: 18px;
+      background-color: #f8f8f8;
+      border: 0;
+      .par {
+        margin-top: 8px;
+      }
+      .charge {
+        text-align: center;
+        font-size: 30px;
+        color: $thirdColor;
+        margin: 8px;
+      }
+      .pell-charge {
+        text-align: left;
+      }
+    }
+    .account-reseat {
+      margin-top: 30px;
+      padding-bottom: 0 !important;
+      .card-header {
+        background-color: transparent;
+        margin-bottom: 20px;
+      }
+      .card-body {
+        border-bottom: 1px solid #c5c5c5;
+        h6 {
+          color: #c5c5c5;
+          font-size: 15px;
+        }
+        p {
+          color: $mainColor;
+          font-size: 15px;
+        }
+      }
+    }
+    .cards-bankaccount-prev-order {
+      margin-top: 35px;
+      margin-bottom: 70px;
+      .card-header {
+        background-color: transparent;
+        margin-bottom: 20px;
+      }
+      .card-body {
+        border-bottom: 1px solid #c5c5c5;
+        h6 {
+          color: #c5c5c5;
+          font-size: 15px;
+        }
+        p {
+          color: $mainColor;
+          font-size: 15px;
+        }
+      }
+      .card-lower-bank-account {
+        .card-header {
+          position: relative;
+        }
+        .edit {
+          color: $secondColor;
+          position: absolute;
+          left: 5%;
+          top: 50%;
+          transform: translate(-5%, -50%);
+        }
+      }
+      .add-bank-account {
+        color: $secondColor !important;
+        display: inline-block;
+        margin-top: 10px;
+      }
+    }
+  }
 }
+// ================================================================================================================================================
+.lower-page {
+  .lower-pic {
+    margin-top: 32px;
+    img {
+      height: 365px;
+    }
+    .card-title,
+    .card-text {
+      margin: 0;
+    }
+    .card-title {
+      font-size: 24px;
+      margin-top: 28px;
+    }
+    .card-text {
+      font-size: 14px;
+      color: #c5c5c5;
+      margin-top: 8px;
+      padding-bottom: 30px;
+      position: relative;
+      margin-bottom: 22px;
+      &::after {
+        @extend %line-after;
+        right: 1%;
+        bottom: 0;
+        width: 90px !important;
+        height: 5px !important;
+        background-color: $thirdColor !important;
+      }
+    }
+    .lower-social {
+      padding-right: 20px;
+      position: relative;
+      i {
+        position: absolute;
+        right: 0%;
+        top: 5px;
+        color: $thirdColor;
+      }
+      span {
+        color: $mainColor;
+      }
+      h6 {
+        margin: 0;
+        color: $mainColor;
+      }
+    }
+    .social {
+      a {
+        color: $mainColor;
+        transition: all 0.5s;
+        &:hover {
+          color: $secondColor;
+        }
+        i {
+          margin-left: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+    .btn-lower-option {
+      padding-top: 15px;
+      .btn {
+        width: 100%;
+        margin-top: 10px;
+        padding: 11px;
+      }
+      .btn:first-child {
+        background-color: #fff;
+        border: 1px solid $thirdColor;
+      }
+      .btn:nth-child(2) {
+        background-color: #b31633;
+        color: #fff;
+      }
+      .btn:last-child {
+        background-color: $mainColor;
+        color: #fff;
+      }
+    }
+  }
+  .sience-certificate {
+    background-color: #f8f8f8;
+    margin-top: 32px;
+    padding-bottom: 25px;
+    border: 0;
+    .card-header {
+      border-bottom: 1px solid #c5c5c5;
+      background-color: transparent;
+      margin-bottom: 20px;
+    }
+    .card-body {
+      padding: 10px;
+      padding-right: 20px;
+      p,
+      h6 {
+        margin: 0;
+      }
+      p {
+        margin-top: 20px;
+        color: #7c99ab;
+        margin-bottom: 6px;
+      }
+      .ex-date {
+        padding: 0;
+      }
+    }
+  }
+  .specialization {
+    .col-lg-4,
+    .col-lg-8 {
+      margin: 0 !important;
+    }
+    p {
+      margin: 0 !important;
+    }
+  }
+  .appointment {
+    .col-lg-4 {
+      padding: 0;
+    }
+    i {
+      color: $thirdColor;
+      margin-left: 10px;
+    }
+    .first {
+      font-weight: bold;
+    }
+    .last {
+      border-right: 4px solid $thirdColor;
+      padding-right: 8px;
+    }
+  }
+  .legal-post-slider {
+    .legal-post-slider-content {
+      padding: 20px;
+      .slider-item {
+        position: relative;
+        padding-bottom: 20px;
+      }
+      .fa-folder-open {
+        color: $mainColor;
+        font-size: 20px;
+        margin-left: 10px;
+      }
+      span {
+        font-size: 18px;
+        position: relative;
+        padding-bottom: 40px;
+        display: inline-block;
+        &::after {
+          @extend %line-after;
+          right: 1%;
+          bottom: 0;
+          width: 90px !important;
+          height: 5px !important;
+          background-color: $thirdColor !important;
+        }
+      }
+      .fa-star {
+        position: absolute;
+        left: 20px;
+        color: $thirdColor;
+        font-size: 20px;
+        margin-top: 5px;
+      }
+    }
+    .slick-arrow {
+    }
+    .slick-prev {
+      left: 5%;
+      top: -17%;
+      z-index: 99;
+      &::before {
+        @extend %initlizeFonAwesomeAfter;
+        @extend %headerArrows;
+        content: "\f0a8";
+        font-size: 23px;
+        color: $thirdColor !important;
+      }
+    }
+    .slick-next {
+      right: 88%;
+      top: -17%;
+      &::before {
+        @extend %initlizeFonAwesomeAfter;
+        @extend %headerArrows;
+        content: "\f0a9";
+        font-size: 23px;
+        color: $thirdColor !important;
+      }
+    }
+  }
+  .free-post-slider {
+    .free-post-slider-content {
+      .slider-item {
+        position: relative;
+        padding-bottom: 20px;
+        padding-right: 50px;
+      }
+      .fa-folder-open {
+        color: $mainColor;
+        font-size: 20px;
+        margin-left: 10px;
+        position: absolute;
+        right: 15px;
+      }
+      span {
+        color: #c5c5c5;
+      }
+      p {
+        font-size: 18px;
+        position: relative;
+        padding-bottom: 40px;
+        &::after {
+          @extend %line-after;
+          right: 1%;
+          bottom: 0;
+          width: 90px !important;
+          height: 5px !important;
+          background-color: $thirdColor !important;
+        }
+      }
+      .slick-prev {
+        left: 5%;
+        top: -18%;
+        z-index: 99;
+        &::before {
+          @extend %initlizeFonAwesomeAfter;
+          @extend %headerArrows;
+          content: "\f0a8";
+          font-size: 23px;
+          color: $thirdColor !important;
+        }
+      }
+      .slick-next {
+        right: 88%;
+        top: -18%;
+        &::before {
+          @extend %initlizeFonAwesomeAfter;
+          @extend %headerArrows;
+          content: "\f0a9";
+          font-size: 23px;
+          color: $thirdColor !important;
+        }
+      }
+    }
+  }
+  .book-slider {
+    margin-bottom: 90px;
+    .book-slider-content {
+      padding: 30px;
+      .slider-item {
+        .card {
+          margin-bottom: 20px;
+          border: 0;
+          .card-title {
+            margin-top: 15px;
+          }
+          .card-text {
+            i {
+              color: $thirdColor;
+            }
+          }
+          .card-link {
+            color: $thirdColor;
+          }
+        }
+      }
+      .slick-prev {
+        left: 5%;
+        top: -13%;
+        z-index: 99;
+        &::before {
+          @extend %initlizeFonAwesomeAfter;
+          @extend %headerArrows;
+          content: "\f0a8";
+          font-size: 23px;
+          color: $thirdColor !important;
+        }
+      }
+      .slick-next {
+        right: 88%;
+        top: -13%;
+        &::before {
+          @extend %initlizeFonAwesomeAfter;
+          @extend %headerArrows;
+          content: "\f0a9";
+          font-size: 23px;
+          color: $thirdColor !important;
+        }
+      }
+    }
+  }
+}
+// ================================================================================================================================================
+.login-page {
+  .image-header {
+    h5 {
+      &::after {
+        right: 48% !important;
+      }
+    }
+  }
+  .lgin-form {
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    width: 50%;
+    margin: auto;
+    margin-top: -60px;
+    margin-bottom: 90px;
+    padding: 50px 80px;
+    .form-group {
+      .form-control {
+        height: 60px;
+      }
+    }
+    .btn-submit-form {
+      text-align: center;
+      margin-top: 51px;
+      margin-bottom: 30px;
+      .btn {
+        background-color: #b31633;
+        color: #fff;
+        padding: 15px;
+      }
+    }
+    a {
+      color: $thirdColor;
+    }
+    .forget-pass {
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+}
+// ================================================================================================================================================
+.new-account-page {
+  .image-header {
+    h5 {
+      &::after {
+        right: 48% !important;
+      }
+    }
+  }
+  .new-account-form {
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    width: 70%;
+    margin: auto;
+    margin-top: -60px;
+    margin-bottom: 90px;
+    padding: 50px 80px;
+    .new-account-tabs {
+      margin-bottom: 30px !important;
+    }
+    .ordanry-lawer-page-tabs {
+      padding-right: 160px;
+    }
+    .form-group {
+      .form-control {
+        height: 50px;
+      }
+    }
+    a {
+      color: $thirdColor;
+    }
+    .note {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .btn-submit-form {
+      text-align: center;
+      margin-top: 51px;
+      // margin-bottom: 30px;
+      .btn {
+        background-color: #b31633;
+        color: #fff;
+        padding: 15px;
+      }
+    }
+    .input-group {
+      background-color: #f2f2f2;
+      height: calc(1.5em + 0.75rem + 20px);
+      border-radius: 10px;
+      // margin-top: 6px;
+      padding: 6px;
+      .custom-file-label {
+        border: 0;
+        background-color: transparent !important;
+        height: calc(1.5em + 0.75rem + 20px);
+        line-height: 35px;
+        &:focus {
+          outline: 0;
+          box-shadow: 0 !important;
+        }
+      }
+      .custom-file-input {
+        border: 0;
+        background-color: transparent !important;
+        &:focus {
+          outline: 0;
+          box-shadow: 0 !important;
+        }
+      }
+    }
+    .custom-file-input:lang(en) ~ .custom-file-label::after {
+      @extend %initlizeFonAwesomeAfter;
+      content: "\f0c1";
+      background-color: transparent;
+      height: calc(1.5em + 0.75rem + 20px);
+      line-height: 35px;
+      color: #b31633;
+      &:focus {
+        outline: 0;
+        box-shadow: 0 !important;
+      }
+    }
+  }
+  .add-anouther-specilist {
+    display: inline-block;
+    margin-top: 50px !important;
+    color: #b31633 !important;
+  }
+}
+// ================================================================================================================================================
+.my-account-special-detials {
+  .lower-replay {
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 30px;
+    .header {
+      position: relative;
+      padding-bottom: 40px;
+      margin-top: 40px;
+      &::after {
+        content: url("../images/an-line.png");
+        position: absolute;
+        // height: 20px;
+        bottom: 0;
+        right: 0;
+      }
+    }
+    .card {
+      padding: 20px;
+      margin-top: 20px;
+      .card-header {
+        position: relative;
+        padding-right: 60px;
+        background-color: transparent;
+        border-bottom: 0;
+        img {
+          width: 53px;
+          height: 53px;
+          border-radius: 50%;
+          position: absolute;
+          right: 0;
+        }
+        span {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+          color: #c5c5c5;
+        }
+      }
+      .card-body {
+        padding-top: 0;
+        .card-text {
+          margin-top: 0;
+          font-size: 15px;
+        }
+        .card-link {
+          background-color: #fff;
+          color: #000;
+          display: inline-block;
+          width: 205px;
+          padding: 10px;
+          font-size: 15px;
+          border-radius: 5px;
+          i {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+  .notes {
+    margin: 20px;
+    .header {
+      position: relative;
+      padding-bottom: 40px;
+      margin-top: 40px;
+      span {
+        margin-right: 5px;
+      }
+      &::after {
+        content: url("../images/an-line.png");
+        position: absolute;
+        // height: 20px;
+        bottom: 0;
+        right: 0;
+      }
+    }
+    .note-card {
+      padding: 0px;
+      margin-top: 20px;
+      background-color: #fff;
+      .card-header {
+        position: relative;
+        padding-right: 60px;
+        background-color: transparent;
+        border-bottom: 0;
+        img {
+          width: 53px;
+          height: 53px;
+          border-radius: 50%;
+          position: absolute;
+          right: 0;
+        }
+        span {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+          color: #c5c5c5;
+        }
+      }
+      .card-body {
+        padding-top: 0;
+        .card-text {
+          margin-top: 0;
+          font-size: 15px;
+        }
+      }
+    }
+    .replay-card {
+      padding: 20px;
+      margin-top: 20px;
+      .card-header {
+        position: relative;
+        padding-right: 60px;
+        background-color: transparent;
+        border-bottom: 0;
+        img {
+          width: 53px;
+          height: 53px;
+          border-radius: 50%;
+          position: absolute;
+          right: 0;
+        }
+        span {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+          color: #c5c5c5;
+        }
+      }
+      .card-body {
+        padding-top: 0;
+        .card-text {
+          margin-top: 0;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .cost-add-note {
+    .card-cost {
+      background-color: #f6f6f6;
+      text-align: center;
+      padding: 30px;
+      p,
+      h5 {
+        margin: 0;
+      }
+      p {
+        font-size: 18px;
+      }
+      h5 {
+        font-size: 43px;
+        color: $thirdColor;
+        margin-top: 5px;
+      }
+    }
+    .add-note {
+      background-color: #fff;
+      border: 1px solid #c5c5c5;
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+    }
+    .card-text {
+      margin-top: 20px;
+      position: relative;
+      padding-right: 25px;
+      font-size: 14px;
+      color: #C5C5C5;
+      i {
+        position: absolute;
+        color: $thirdColor;
+        right: 0;
+        top: 4px;
+      }
+    }
+    .close-consult{
+      background-color: #b31633;
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      color: #fff;
+    }
+  }
+}
+// ================================================================================================================================================
+
+// ================================================================================================================================================
+
+// ================================================================================================================================================
+
 // ================================================================================================================================================
 
 // start footer
@@ -3265,6 +4020,40 @@ footer {
       padding-right: 0;
     }
   }
+  .lower-pic {
+    img {
+      width: 50% !important;
+    }
+  }
+  .login-page {
+    .lgin-form {
+      width: 98% !important;
+      padding: 25px;
+      .forget-pass {
+        text-align: right;
+        margin-top: 10px;
+      }
+    }
+  }
+  .new-account-page {
+    .new-account-form {
+      width: 100%;
+      .ordanry-lawer-page-tabs {
+        padding-right: 125px;
+        .nav-link {
+          margin-left: 30px;
+        }
+      }
+    }
+    .add-anouther-specilist {
+      margin-top: 0 !important;
+      margin-bottom: 20px;
+    }
+  }
+  .new-account-page .new-account-form .note {
+    text-align: right;
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 524px) {
@@ -3435,6 +4224,54 @@ footer {
       .department-details-cards
       .card-text {
       margin-top: 20px;
+    }
+  }
+  .legal-post-slider,
+  .legal-post-slider {
+    .legal-post-slider-content,
+    .legal-post-slider-content {
+      .slick-prev {
+        top: -11% !important;
+      }
+      .slick-next {
+        top: -11% !important;
+        right: 77% !important;
+      }
+    }
+  }
+  .lower-page .legal-post-slider .legal-post-slider-content .fa-star {
+    bottom: 20px;
+  }
+  .lower-page {
+    .cer-img {
+      text-align: center;
+      img {
+        width: 50% !important;
+      }
+    }
+    .ex-date {
+      padding-left: 15px !important ;
+      padding-right: 15px !important;
+    }
+  }
+  .lower-page .sience-certificate .card-body p,
+  .lower-page .sience-certificate .card-body h6 {
+    margin-bottom: 0.6rem;
+  }
+  .new-account-page {
+    .new-account-form {
+      width: 100%;
+      padding: 25px;
+      .ordanry-lawer-page-tabs {
+        padding-right: 0;
+        .nav-link {
+          margin-left: 30px;
+        }
+      }
+    }
+    .add-anouther-specilist {
+      margin-top: 0 !important;
+      margin-bottom: 20px;
     }
   }
 }
