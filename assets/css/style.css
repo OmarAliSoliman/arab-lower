@@ -3292,6 +3292,218 @@ img {
   color: #fff;
 }
 
+.law-services .card-law-info {
+  padding: 20px;
+  background-color: #F6F6F6;
+  border: 0;
+  text-align: center;
+  margin-top: 16px;
+}
+.law-services .card-law-info .col-lg-3, .law-services .card-law-info .col-lg-2, .law-services .card-law-info .col-lg-4 {
+  padding: 0;
+}
+.law-services .card-law-info .card-body {
+  padding: 0;
+  position: relative;
+}
+.law-services .card-law-info i {
+  color: #ccad53;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.law-services .card-law-info span {
+  font-size: 14px;
+}
+.law-services .card-law-info .btn-follow {
+  font-size: 15px;
+  background-color: #ccad53;
+  color: #fff;
+  padding: 0;
+  padding: 5px;
+  margin-top: -5px;
+}
+.law-services .card-law-info .card-body-3 span {
+  margin-right: -20px;
+}
+.law-services .low-service-par h5 {
+  font-size: 18px;
+  color: #1a355a;
+  margin-top: 40px;
+}
+.law-services .low-service-par p {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #626262;
+}
+.law-services .law-service-photo .card-img {
+  background-size: cover;
+  background-position: center;
+  height: 145px;
+}
+.law-services .low-service-replaies {
+  margin-top: 30px;
+  background-color: #f6f6f6;
+}
+.law-services .low-service-replaies .card {
+  border: 0;
+  background-color: transparent;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 40px;
+}
+.law-services .low-service-replaies .card .msg-number {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  color: #1a355a;
+  font-size: 14px;
+  text-decoration: none;
+}
+.law-services .low-service-replaies .card .msg-reblay {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  color: #1a355a;
+  z-index: 2;
+  font-size: 14px;
+  text-decoration: none;
+}
+.law-services .low-service-replaies .card .card-header {
+  background-color: transparent;
+  position: relative;
+  padding-right: 70px;
+  border: 0;
+}
+.law-services .low-service-replaies .card .card-header img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+}
+.law-services .low-service-replaies .card .card-header p {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 2px;
+}
+.law-services .low-service-replaies .card .card-header span {
+  font-size: 14px;
+  color: #C5C5C5;
+  display: inline-block;
+}
+.law-services .low-service-replaies .card .card-body {
+  padding: 0;
+}
+.law-services .low-service-replaies .card .card-body .card-text {
+  color: #626262;
+  font-size: 16px;
+  line-height: 25px;
+}
+.law-services .low-service-replaies .replay-card {
+  padding-right: 50px;
+  position: relative;
+}
+.law-services .low-service-replaies .replay-card::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  background-color: #ddd;
+  left: 0;
+}
+.law-services .low-service-replaies .msg-name-send {
+  display: inline-block;
+  margin-left: 5px;
+  color: #C5C5C5;
+}
+.law-services .low-service-replaies .name-sender {
+  color: #d52818;
+}
+.law-services .low-service-replaies .attachment {
+  display: inline-block;
+  background-color: #fff;
+  color: #1a355a;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.law-services .text-box-reblay .form-group {
+  margin-top: 20px;
+}
+.law-services .text-box-reblay .form-group .form-control {
+  height: 50px !important;
+}
+.law-services .text-box-reblay .add-reblay {
+  background-color: #1a355a;
+  color: #fff;
+  margin-top: 10px;
+}
+.law-services .law-service-sidebar {
+  margin-top: 16px;
+}
+.law-services .law-service-sidebar .card-total-inves {
+  background-color: #f6f6f6;
+  border: 0;
+  text-align: center;
+  padding: 20px;
+}
+.law-services .law-service-sidebar .card-total-inves h6, .law-services .law-service-sidebar .card-total-inves h5 {
+  margin: 0;
+}
+.law-services .law-service-sidebar .card-total-inves .card-title {
+  font-size: 18px;
+}
+.law-services .law-service-sidebar .card-total-inves .card-text {
+  font-size: 43px;
+  color: #ccad53;
+  margin: 10px;
+}
+.law-services .law-service-sidebar .card-total-inves .card-btn {
+  background-color: #b31633;
+  color: #fff;
+  padding: 15px;
+}
+.law-services .law-service-sidebar .card-work-lower {
+  background-color: #f6f6f6;
+  margin-top: 30px;
+  padding-top: 24px;
+  padding-bottom: 10px;
+  border: 0;
+}
+.law-services .law-service-sidebar .card-work-lower .header {
+  margin-bottom: 35px;
+  text-align: center;
+}
+.law-services .law-service-sidebar .card-work-lower .header h5 {
+  font-size: 18px;
+  color: #626262;
+}
+.law-services .law-service-sidebar .card-work-lower .card-body {
+  padding: 0;
+  position: relative;
+  padding-right: 80px;
+  margin-bottom: 20px;
+}
+.law-services .law-service-sidebar .card-work-lower .card-body img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+}
+.law-services .law-service-sidebar .card-work-lower .card-body p {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 2px;
+}
+.law-services .law-service-sidebar .card-work-lower .card-body span {
+  font-size: 14px;
+  color: #C5C5C5;
+  display: inline-block;
+}
+
 footer {
   background-color: #1a355a;
 }
@@ -3511,7 +3723,24 @@ footer .links ul li:last-child::before {
 
   .new-account-page .new-account-form .note {
     text-align: right;
-    margin-top: 10px;
+    margin-top: 20px;
+  }
+
+  .law-services .card-law-info .btn-follow {
+    margin-top: 15px;
+  }
+
+  .law-services .card-law-info i {
+    position: unset;
+    margin-bottom: 10px;
+  }
+
+  .law-services .card-law-info .card-body-3 span {
+    margin: 0;
+  }
+
+  .law-services .law-service-photo .card-img {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 524px) {
