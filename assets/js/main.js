@@ -120,4 +120,21 @@ $(document).ready(function () {
     })
   }
 
+
+  let openNotificationBody = false;
+  if($('#notification-span').length){
+    $('#notification-span').on('click', function(){
+      if(!openNotificationBody){
+        $('.notification-body').css('display', 'block');
+      }else{
+        $('.notification-body').css('display', 'none');
+      }
+      openNotificationBody=!openNotificationBody;
+    })
+  }
+
+  $('.dropdown').hover(function(){ 
+    $('.dropdown-toggle', this).trigger('click'); 
+  });
+
 });

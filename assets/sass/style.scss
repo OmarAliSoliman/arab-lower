@@ -72,6 +72,10 @@ img {
   }
 }
 
+.dropdown-toggle{
+  outline: 0 !important;
+}
+
 // =======================================================================================================
 
 // start top header
@@ -113,7 +117,7 @@ img {
 .middle-header {
   height: auto;
   margin-top: 20px;
-
+  position: relative;
   .social {
     margin-top: 40px;
     font-size: 23px;
@@ -193,7 +197,24 @@ img {
     margin-top: 40px;
     color: #000;
     text-decoration: none;
-
+    position: relative;
+    .notification-number{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: $mainColor;
+      color: #fff;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 50%;
+      font-size: 11px;
+      position: absolute;
+      top: -10px;
+      right: -18px;
+    }
+    #notification-span{
+      cursor: pointer;
+    }
     i {
       color: $thirdColor;
     }
@@ -208,6 +229,66 @@ img {
       color: #888;
     }
   }
+
+  .notification-body{
+    background-color: #fff;
+    width: 35%;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    z-index: 9;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    height: 300px;
+    overflow: auto;
+    display: none;
+    .notification-li{
+      a{
+        text-decoration: none;
+      }
+      li{
+        position: relative;
+        padding: 20px;
+        padding-right: 70px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        padding-top: 10px;
+        img{
+          width: 53px;
+          height: 53px;
+          border-radius: 50%;
+          position: absolute;
+          right: 10px;
+        }
+        p{
+          margin: 0;
+        }
+        .notification-name{
+          color: $mainColor;
+          font-size: 15px;
+        }
+        .name, .time{
+          font-size: 12px;
+          color: #626262;
+        }
+        &:hover{
+          background-color: #f2f2f2;
+        }
+      }
+      .all-notification{
+        border-bottom: 0;
+        padding-bottom: 0;
+        a{
+          display: inline-block;
+          color: #fff;
+          background-color: $mainColor;
+        }
+        &:hover{
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
 }
 
 // start navbar
@@ -550,6 +631,10 @@ img {
             text-align: center;
             position: relative;
             padding-bottom: 25px;
+            a{
+              color: #000;
+              text-decoration: none;
+            }
             &::after {
               @extend %line-after;
               right: 40% !important;
@@ -1614,9 +1699,6 @@ img {
             margin: 0;
             font-size: 17px;
           }
-        }
-        .card-body {
-          // padding: 0;
         }
       }
       #accordion {
@@ -3331,8 +3413,6 @@ img {
         margin-top: 5px;
       }
     }
-    .slick-arrow {
-    }
     .slick-prev {
       left: 5%;
       top: -17%;
@@ -4046,6 +4126,10 @@ footer {
         width: 25%;
         margin-top: 10px;
         position: relative;
+        transition: all .5s;
+        &:hover{
+          transform: translateX(-5px);
+        }
         a {
           color: #fff;
           text-decoration: none;
@@ -4292,21 +4376,32 @@ footer {
   .law-services .law-service-photo .card-img{
     margin-bottom: 10px;
   }
+  .middle-header .notification-body{
+    width: 90%;
+    margin: auto;
+    top: 100%;
+  }
+  .pagination{
+    overflow: scroll;
+  }
 }
 
 @media (max-width: 524px) {
+
   .top-header {
+    text-align: center;
     .company-email {
-      text-align: right;
       margin-top: 10px;
+      text-align: center;
     }
   }
   .middle-header {
     .social {
       margin-top: 0;
+      text-align: center;
     }
     .logo {
-      text-align: right;
+      text-align: center;
       margin-top: 20px;
     }
     .account-card {

@@ -59,6 +59,10 @@ img {
   color: #fff;
 }
 
+.dropdown-toggle {
+  outline: 0 !important;
+}
+
 .top-header {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -92,6 +96,7 @@ img {
 .middle-header {
   height: auto;
   margin-top: 20px;
+  position: relative;
 }
 .middle-header .social {
   margin-top: 40px;
@@ -163,6 +168,24 @@ img {
   margin-top: 40px;
   color: #000;
   text-decoration: none;
+  position: relative;
+}
+.middle-header .notification .notification-number {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #1a355a;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 11px;
+  position: absolute;
+  top: -10px;
+  right: -18px;
+}
+.middle-header .notification #notification-span {
+  cursor: pointer;
 }
 .middle-header .notification i {
   color: #ccad53;
@@ -174,6 +197,62 @@ img {
 .middle-header .notification .select-language {
   border: 0;
   color: #888;
+}
+.middle-header .notification-body {
+  background-color: #fff;
+  width: 35%;
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  z-index: 9;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  height: 300px;
+  overflow: auto;
+  display: none;
+}
+.middle-header .notification-body .notification-li a {
+  text-decoration: none;
+}
+.middle-header .notification-body .notification-li li {
+  position: relative;
+  padding: 20px;
+  padding-right: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+}
+.middle-header .notification-body .notification-li li img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+}
+.middle-header .notification-body .notification-li li p {
+  margin: 0;
+}
+.middle-header .notification-body .notification-li li .notification-name {
+  color: #1a355a;
+  font-size: 15px;
+}
+.middle-header .notification-body .notification-li li .name, .middle-header .notification-body .notification-li li .time {
+  font-size: 12px;
+  color: #626262;
+}
+.middle-header .notification-body .notification-li li:hover {
+  background-color: #f2f2f2;
+}
+.middle-header .notification-body .notification-li .all-notification {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.middle-header .notification-body .notification-li .all-notification a {
+  display: inline-block;
+  color: #fff;
+  background-color: #1a355a;
+}
+.middle-header .notification-body .notification-li .all-notification:hover {
+  background-color: transparent;
 }
 
 .navbar {
@@ -469,6 +548,10 @@ img {
   text-align: center;
   position: relative;
   padding-bottom: 25px;
+}
+.consults .consult-slider .slider-item .card .card-body .card-title a {
+  color: #000;
+  text-decoration: none;
 }
 .consults .consult-slider .slider-item .card .card-body .card-title::after {
   right: 40% !important;
@@ -3539,6 +3622,10 @@ footer .links ul li {
   width: 25%;
   margin-top: 10px;
   position: relative;
+  transition: all 0.5s;
+}
+footer .links ul li:hover {
+  transform: translateX(-5px);
 }
 footer .links ul li a {
   color: #fff;
@@ -3742,18 +3829,32 @@ footer .links ul li:last-child::before {
   .law-services .law-service-photo .card-img {
     margin-bottom: 10px;
   }
+
+  .middle-header .notification-body {
+    width: 90%;
+    margin: auto;
+    top: 100%;
+  }
+
+  .pagination {
+    overflow: scroll;
+  }
 }
 @media (max-width: 524px) {
+  .top-header {
+    text-align: center;
+  }
   .top-header .company-email {
-    text-align: right;
     margin-top: 10px;
+    text-align: center;
   }
 
   .middle-header .social {
     margin-top: 0;
+    text-align: center;
   }
   .middle-header .logo {
-    text-align: right;
+    text-align: center;
     margin-top: 20px;
   }
   .middle-header .account-card img {
