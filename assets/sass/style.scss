@@ -87,6 +87,7 @@ img {
   .lang {
     color: #000;
     text-decoration: none;
+    display: inline-block;
 
     img {
       width: 18px;
@@ -100,9 +101,19 @@ img {
     }
 
     .select-language {
-      border: 0;
-      color: #888;
-      margin-top: 10px;
+      // margin-top: 10px;
+      .btn{
+        border: 0;
+        background-color: transparent !important;
+        color: #888;
+        &:focus{
+          outline: 0 !important;
+          box-shadow: none !important;
+        }
+      }
+      .dropdown-menu{
+        width: 233px;
+      }
     }
   }
 
@@ -137,6 +148,8 @@ img {
 
   .logo {
     text-align: center;
+    display: inline-block;
+    text-decoration: none;
     img {
       width: 80px;
       height: 80px;
@@ -159,6 +172,7 @@ img {
     margin-top: 40px;
     border-radius: 0;
     border: 0;
+    text-decoration: none;
     .row {
       margin: 0;
       padding: 0;
@@ -4394,6 +4408,13 @@ footer {
       margin-top: 10px;
       text-align: center;
     }
+    .lang{
+      .dropdown{
+        .dropdown-menu{
+          width: 209px;
+        }
+      }
+    }
   }
   .middle-header {
     .social {
@@ -4623,6 +4644,19 @@ footer {
     .department-details-cards {
       .dont-answer {
         position: unset !important;
+      }
+    }
+  }
+}
+
+@media(max-width: 321px){
+  .lang{
+    .dropdown{
+      .dropdown-menu{
+        width: 190px !important;
+        .dropdown-item{
+          font-size: 14px;
+        }
       }
     }
   }

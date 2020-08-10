@@ -71,6 +71,7 @@ img {
 .top-header .lang {
   color: #000;
   text-decoration: none;
+  display: inline-block;
 }
 .top-header .lang img {
   width: 18px;
@@ -81,10 +82,17 @@ img {
   margin-right: 5px;
   color: #888;
 }
-.top-header .lang .select-language {
+.top-header .lang .select-language .btn {
   border: 0;
+  background-color: transparent !important;
   color: #888;
-  margin-top: 10px;
+}
+.top-header .lang .select-language .btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.top-header .lang .select-language .dropdown-menu {
+  width: 233px;
 }
 .top-header .company-email {
   text-align: left;
@@ -112,6 +120,8 @@ img {
 }
 .middle-header .logo {
   text-align: center;
+  display: inline-block;
+  text-decoration: none;
 }
 .middle-header .logo img {
   width: 80px;
@@ -133,6 +143,7 @@ img {
   margin-top: 40px;
   border-radius: 0;
   border: 0;
+  text-decoration: none;
 }
 .middle-header .account-card .row {
   margin: 0;
@@ -3848,6 +3859,9 @@ footer .links ul li:last-child::before {
     margin-top: 10px;
     text-align: center;
   }
+  .top-header .lang .dropdown .dropdown-menu {
+    width: 209px;
+  }
 
   .middle-header .social {
     margin-top: 0;
@@ -4013,6 +4027,14 @@ footer .links ul li:last-child::before {
 
   .free-consult .department-details-cards .dont-answer {
     position: unset !important;
+  }
+}
+@media (max-width: 321px) {
+  .lang .dropdown .dropdown-menu {
+    width: 190px !important;
+  }
+  .lang .dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
   }
 }
 .services .section-header, .posts .section-header, .consults .section-header, .books-search .section-header {
