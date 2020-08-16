@@ -264,5 +264,9 @@ $(document).ready(function () {
   }
   
 
+  if($('.select-form-control').length){
+    $('.select-form-control').select2();
+  }
+
 
 });

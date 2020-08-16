@@ -3710,6 +3710,25 @@ footer .links ul li:last-child::before {
   font-size: 14px;
 }
 
+.select2-container {
+  width: 100% !important;
+}
+
+.select2-container .select2-selection--single {
+  height: 65px;
+  width: 100%;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 65px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 10px;
+}
+
 @media (max-width: 800px) {
   .pagination {
     padding-right: 0;
